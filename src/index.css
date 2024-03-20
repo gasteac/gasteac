@@ -96,7 +96,11 @@ h6 {
 }
 
 .navbar {
-  background: linear-gradient(to right, rgba(120, 34, 154, 0.52), rgba(14, 105, 96, 0.64));
+  background: linear-gradient(
+    to right,
+    rgba(120, 34, 154, 0.52),
+    rgba(14, 105, 96, 0.64)
+  );
   width: 100vw;
   height: 8vh;
   justify-content: space-evenly;
@@ -108,7 +112,11 @@ h6 {
 }
 
 .navbar2 {
-  background-color: rgb(1, 23, 18);
+  background: linear-gradient(
+    to right,
+    rgba(120, 34, 154, 0.52),
+    rgba(14, 105, 96, 0.64)
+  );
   width: 100vw;
   height: 8vh;
   justify-content: space-between;
@@ -119,12 +127,11 @@ h6 {
   display: none;
 }
 
-
-.navbar img:hover{
+.navbar img:hover {
   filter: drop-shadow(3mm 1mm 3mm rgba(20, 148, 129, 0.897));
 }
 
-.navbar2 img:hover{
+.navbar2 img:hover {
   filter: drop-shadow(3mm 1mm 3mm rgba(20, 148, 129, 0.897));
 }
 
@@ -147,6 +154,15 @@ a:hover {
   font-weight: 400;
 }
 
+.active {
+  color: rgb(184, 75, 228);
+}
+
+.active img {
+  color: rgb(184, 75, 228);
+  filter: drop-shadow(3mm 1mm 3mm rgba(20, 148, 129, 0.897));
+}
+
 .gasteacLogo:hover {
   text-decoration: none;
   color: rgb(43, 218, 177);
@@ -158,15 +174,18 @@ a:hover {
   .navbar img {
     display: none;
   }
+  .navbar img .logo2{
+    display: block;
+  }
   .gsec1 {
     width: 100vw;
   }
-  .pages{
+  .pages {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
   }
-  .pages img{
+  .pages img {
     margin-top: 60px;
   }
 }
@@ -179,7 +198,7 @@ a:hover {
     display: flex;
     padding: 15px;
   }
-  .aboutMe h1{
+  .aboutMe h1 {
     font-size: 20px !important;
   }
 }
@@ -194,12 +213,10 @@ a:hover {
 }
 
 @media only screen and (max-width: 360px) {
-  .navbar2 h3{
+  .navbar2 h3 {
     display: none;
   }
-  .navbar2{
+  .navbar2 {
     display: flex;
   }
-
 }
-

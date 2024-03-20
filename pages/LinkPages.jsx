@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import "animate.css";
 export const LinkPages = () => {
   return (
-    <div className="pages animate__animated animate__lightSpeedInLeft animate__fast">
+    <div className="pages animate__animated animate__fadeInRightBig animate__fast">
       <NavLink target="_blank" to="https://www.linkedin.com/in/gasteac/">
         <img src="linkedin-mark-blue.png" alt="linkedin" />
       </NavLink>
