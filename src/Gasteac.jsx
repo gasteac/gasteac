@@ -7,9 +7,33 @@ export const Gasteac = () => {
           <img src="gasteacBigLogo.png" alt="" />
         </div>
         <div className="gsection gsec2 animate__animated animate__fadeInRightBig animate__faster">
-          <h1 style={{color:'white'}}>
-          Advanced student of the Information Systems Engineering career. I am a committed individual to my responsibilities and consider myself competent to face any challenge due to my dedication. I am highly critical, thus always striving for things to be done properly. I value teamwork and collaboration, as well as communication, which I deem fundamental to achieving any goal.
-          </h1>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            <h1
+              style={{
+                color: "white",
+                fontSize: "70px",
+                alignSelf: "center",
+                margin: "0",
+              }}
+            >
+              Gaston E. Acosta
+            </h1>
+            <h1
+              style={{
+                color: "white",
+                fontSize: "50px",
+                alignSelf: "center",
+                margin: "0",
+              }}
+            >
+              Full Stack Developer
+            </h1>
+            <h1
+              style={{ color: "white", fontSize: "20px", alignSelf: "center" }}
+            >
+              React | Nodejs | MongoDB | JavaScript | Flutter | Dart | MySQL
+            </h1>
+          </div>
         </div>
       </div>
     </>

@@ -1,19 +1,19 @@
-import React from 'react'
+import React from "react";
 import "animate.css";
 export const AboutPage = () => {
   return (
     <>
-    
-    <div className='pages animate__animated animate__fadeInDown animate__faster'>
-    
-    <div class="card">
-    {/* <img src="wolf.jpg" alt="gasteac" /> */}
-    <img src="tami.jpg" alt="gasteac" />
-  <div class="card-info">
-    I'm a fvcking whore
-  </div>
-</div>
+      <div className="pages animate__animated animate__fadeInDown animate__faster about">
+        <h1 style={{ color: "white" }}>
+          Hello!
+          I'm an advanced student of the Information Systems Engineering career. I am a
+          committed individual to my responsibilities and consider myself
+          competent to face any challenge due to my dedication. I am highly
+          critical, thus always striving for things to be done properly. I value
+          teamwork and collaboration, as well as communication, which I deem
+          fundamental to achieving any goal.
+        </h1>
       </div>
     </>
-  )
-}
+  );
+};

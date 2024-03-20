@@ -3,14 +3,23 @@ import { NavLink } from "react-router-dom";
 import "animate.css";
 export const LinkPages = () => {
   return (
-    <div className="pages animate__animated animate__fadeInDown animate__faster">
+    <div className="pages animate__animated animate__lightSpeedInLeft animate__faster">
+      <NavLink target="_blank" to="https://www.linkedin.com/in/gasteac/">
+        <img src="linkedin-mark-blue.png" alt="linkedin" />
+      </NavLink>
       <NavLink target="_blank" to="https://github.com/gasteac">
-        <h1>GITHUB -logo-</h1>
+        <img src="github-mark-white.png" alt="github" />
       </NavLink>
 
-      <NavLink target="_blank" to="https://www.linkedin.com/in/gasteac/">
-       <h1>Linkedin -logo-</h1>
-      </NavLink>
+      <div className="contact">
+        <ul>
+          <h1>CONTACT:</h1>
+
+          <h2> gasteac@gmail.com</h2>
+
+          <h2> (+54)3795130132 </h2>
+        </ul>
+      </div>
     </div>
   );
 };

@@ -10,7 +10,7 @@ export const Navbar = () => {
 
         <h3>
           <NavLink className="gasteacLogo" to="/home">
-          «todo: technlogies, form, contact/»
+          «Home🏠/»
           </NavLink>
         </h3>
         <div>
