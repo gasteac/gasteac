@@ -4,12 +4,19 @@ export const Navbar = () => {
   return (
     <>
       <div className="navbar">
-        <h3><NavLink className='gasteacLogo' to="/home">Home</NavLink></h3>
+        <NavLink to="/">
+          <img style={{ height: "5vh" }} src="gasteacLogoWhite.png" alt="" />
+        </NavLink>
+
+        <h3>
+          <NavLink className="gasteacLogo" to="/home">
+            Home
+          </NavLink>
+        </h3>
         <div>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/links">Links</NavLink>
+          <NavLink to="/about">About Me</NavLink>
+          <NavLink to="/links">Links</NavLink>
         </div>
-       
       </div>
     </>
   );

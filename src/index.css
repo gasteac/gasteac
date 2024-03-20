@@ -66,7 +66,7 @@ h6 {
 }
 
 .navbar {
-  background-color: rgb(15, 88, 71);
+  background-color: rgb(1, 23, 18);
   width: 100vw;
   height: 8vh;
   justify-content: space-evenly;
@@ -111,11 +111,11 @@ a:hover{
 }
 .card img {
   width: 100%;
-  border-image: linear-gradient(blue, red) 1;
-  border: 2px solid rgb(24, 122, 99);
+
 }
 .card-info {
   padding: 10px;
   font-weight: 500;
+  font-size: 30px;
 }
 
