@@ -13,6 +13,7 @@ export const GasteacRouter = () => {
         <Route path='/*' element={<Gasteac/>}/>
         <Route path='/about' element={<AboutPage/>}/>
         <Route path='/links' element={<LinkPages/>}/>
+
       </Routes>
     </>
   );

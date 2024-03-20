@@ -5,17 +5,17 @@ export const Navbar = () => {
     <>
       <div className="navbar">
         <NavLink to="/">
-          <img style={{ height: "5vh" }} src="gasteacLogoWhite.png" alt="" />
+          <img style={{ height: "5vh", marginTop:'10px'}} src="gasteacLogoWhite.png" alt="" />
         </NavLink>
 
         <h3>
           <NavLink className="gasteacLogo" to="/home">
-            Home
+          «todo: technlogies, form, contact/»
           </NavLink>
         </h3>
         <div>
-          <NavLink to="/about">About Me</NavLink>
-          <NavLink to="/links">Links</NavLink>
+          <NavLink to="/about">«About Me/»</NavLink>
+          <NavLink to="/links">«Links/»</NavLink>
         </div>
       </div>
     </>
