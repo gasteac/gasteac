@@ -25,7 +25,14 @@ export const Navbar = () => {
       </div>
 
       <div className="navbar2">
-        <NavLink target="_blank" to="https://www.linkedin.com/in/gasteac/" >
+      <h3>
+          
+          <NavLink className="gasteacLogo" to="https://drive.usercontent.google.com/download?id=1l2yoeM9Hsl63wTZ29aw8UuNGIDCb_Xro&export=download&authuser=0&confirm=t&uuid=ca197c6e-0986-4fd2-9714-dcde1c6d362c&at=APZUnTVI38TD3u8OH2GF_F8GtQ7I:1710928896290">
+            «Download CV»
+          </NavLink>
+        </h3>
+        <div>
+          <NavLink target="_blank" to="https://www.linkedin.com/in/gasteac/" >
           <img
             style={{ width: "40px", marginTop:'15px' }}
             src="linkedin-mark-blue.png"
@@ -39,6 +46,8 @@ export const Navbar = () => {
             alt="github"
           />
         </NavLink>
+        </div>
+        
       </div>
     </>
   );

@@ -111,7 +111,7 @@ h6 {
   background-color: rgb(1, 23, 18);
   width: 100vw;
   height: 8vh;
-  justify-content: end ;
+  justify-content: space-between;
   align-items: center;
   display: flex;
   z-index: 100;
@@ -170,7 +170,7 @@ a:hover {
   font-size: 30px;
 }
 
-@media only screen and (max-width: 696px) {
+@media only screen and (max-width: 736px) {
   .navbar img {
     display: none;
   }
@@ -187,12 +187,13 @@ a:hover {
   }
 }
 
-@media only screen and (max-width: 515px) {
+@media only screen and (max-width: 560px) {
   .navbar a {
     display: none;
   }
   .navbar2 {
     display: flex;
+    padding: 15px;
   }
   .aboutMe h1{
     font-size: 20px !important;
@@ -207,3 +208,14 @@ a:hover {
     width: 100vw;
   }
 }
+
+@media only screen and (max-width: 360px) {
+  .navbar2 h3{
+    display: none;
+  }
+  .navbar2{
+    display: flex;
+  }
+
+}
+
