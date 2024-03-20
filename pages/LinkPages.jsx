@@ -13,11 +13,13 @@ export const LinkPages = () => {
 
       <div className="contact">
         <ul>
-          <h1>CONTACT:</h1>
+          <h1>Contact me:</h1>
 
           <h2> gasteac@gmail.com</h2>
 
           <h2> (+54)3795130132 </h2>
+
+          <h2> 🗺️ Corrientes, Argentina. </h2>
         </ul>
       </div>
     </div>
