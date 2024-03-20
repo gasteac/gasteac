@@ -16,7 +16,7 @@ export const Navbar = () => {
         </NavLink>
         
 
-        <NavLink to="https://drive.usercontent.google.com/download?id=1l2yoeM9Hsl63wTZ29aw8UuNGIDCb_Xro&export=download&authuser=0&confirm=t&uuid=ca197c6e-0986-4fd2-9714-dcde1c6d362c&at=APZUnTVI38TD3u8OH2GF_F8GtQ7I:1710928896290">
+        <NavLink to="https://drive.usercontent.google.com/download?id=1LWntKrjkPRPQUMDSckOqljj0uSmnvIiF&export=download&authuser=0&confirm=t&uuid=2b8f4a76-1f72-483a-b8dc-b256c2068d20&at=APZUnTUf5KZpxR1l0bewC9ffYThe:1710977473551">
           «Download CV»
         </NavLink>
 

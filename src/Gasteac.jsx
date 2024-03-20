@@ -33,11 +33,7 @@ export const Gasteac = () => {
             >
               React | Nodejs | MongoDB | JavaScript | Flutter | Dart | MySQL
             </h1>
-            <h1
-              style={{ color: "white", fontSize: "20px", alignSelf: "center" }}
-            >
-              Pagina en version ultra beta no esperen nada bueno.
-            </h1>
+          
           </div>
         </div>
       </div>
