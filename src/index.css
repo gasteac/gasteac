@@ -111,7 +111,24 @@ h6 {
   position: fixed;
 }
 
+.navbar2 {
+  background-color: rgb(1, 23, 18);
+  width: 100vw;
+  height: 8vh;
+  justify-content: end ;
+  align-items: center;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  display: none;
+}
+
+
 .navbar img:hover{
+  filter: drop-shadow(3mm 1mm 3mm rgba(20, 148, 129, 0.897));
+}
+
+.navbar2 img:hover{
   filter: drop-shadow(3mm 1mm 3mm rgba(20, 148, 129, 0.897));
 }
 
@@ -157,12 +174,21 @@ a:hover {
   font-size: 30px;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 696px) {
   .navbar img {
     display: none;
   }
   .gsec1 {
     width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 515px) {
+  .navbar a {
+    display: none;
+  }
+  .navbar2 {
+    display: flex;
   }
 }
 
