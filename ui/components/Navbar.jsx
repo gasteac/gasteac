@@ -4,7 +4,7 @@ export const Navbar = () => {
   return (
     <>
       <div className="navbar">
-        <NavLink to="/">
+        <NavLink to="/home">
           <img
             style={{ height: "5vh", marginTop: "10px" }}
             src="gasteacLogoWhite.png"
