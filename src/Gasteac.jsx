@@ -3,10 +3,10 @@ export const Gasteac = () => {
   return (
     <>
       <div className="homePage">
-        <div className="gsection gsec1 animate__animated animate__fadeInLeftBig animate__faster">
+        <div className="gsection gsec1 animate__animated animate__fadeInLeftBig animate__fast">
           <img src="gasteacBigLogo.png" alt="" />
         </div>
-        <div className="gsection gsec2 animate__animated animate__fadeInRightBig animate__faster">
+        <div className="gsection gsec2 animate__animated animate__fadeInRightBig animate__fast">
           <div style={{ display: "flex", flexDirection: "column" }}>
             <h1
               style={{

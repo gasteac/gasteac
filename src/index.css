@@ -13,7 +13,7 @@ body {
   font-size: 1.8em;
   font-family: "Signika Negative", sans-serif;
   line-height: 1.3;
-  background-image: url(/public/wallpaper.jpg);
+  background-image: url(wallpaper.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
