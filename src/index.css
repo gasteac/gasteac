@@ -132,11 +132,10 @@ a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   margin-right: 20px;
-  font-size: 28px;
+  font-size: 22px;
 }
 
 a:hover {
-  font-size: 28px;
   color: rgb(43, 218, 177);
 }
 
@@ -153,21 +152,6 @@ a:hover {
   color: rgb(43, 218, 177);
   margin-right: 20px;
   font-size: 28px;
-}
-
-.card {
-  width: 550px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  text-align: center;
-}
-.card img {
-  width: 100%;
-}
-
-.card-info {
-  padding: 10px;
-  font-weight: 500;
-  font-size: 30px;
 }
 
 @media only screen and (max-width: 736px) {
