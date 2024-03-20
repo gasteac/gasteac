@@ -3,7 +3,7 @@ import "animate.css";
 export const AboutPage = () => {
   return (
     <>
-      <div className="pages animate__animated animate__fadeInDown animate__faster about">
+      <div className="pages aboutMe animate__animated animate__fadeInDown animate__faster about">
         <h1 style={{ color: "white" }}>
           Hello!
           I'm an advanced student of the Information Systems Engineering career. I am a
