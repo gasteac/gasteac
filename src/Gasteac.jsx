@@ -1,13 +1,47 @@
 import "animate.css";
 import { NavLink } from "react-router-dom";
+import Tilt from "react-parallax-tilt";
+
 export const Gasteac = () => {
   return (
     <>
       <div className="homePage">
-        <div className="gsection gsec1 animate__animated animate__fadeInLeftBig animate__fast">
-          <img src="gasteacBigLogo.png" alt="" />
+        <div className="gsectionLeft animate__animated animate__fadeInLeftBig animate__fast">
+          <Tilt
+            style={{
+              justifyContent: "center",
+              height:'500px',
+              width:'800px',
+              alignContent:'center',
+              display:'flex'
+            }}
+            className="tilt"
+          >
+            <img src="gasteacLogoWhiteOnly.png" alt="logoGasteac" style={{width:'350px', height:'400px'}} />
+          </Tilt>
+
+          <div style={{display:'flex', justifyContent:'space-around'}}>
+            <NavLink target="_blank" to="https://www.linkedin.com/in/gasteac/" style={{margin:'0'}}>
+              <img
+                className="zoom-in"
+                style={{ width: "150px", height: "150px", margin:'10px' }}
+                src="linkedin.png"
+                alt="linkedin"
+              />
+            </NavLink>
+
+            <NavLink target="_blank" to="https://github.com/gasteac" style={{margin:'0'}}>
+              <img
+                className="zoom-in"
+                style={{ width: "150px", height: "150px", margin:'10px'}}
+                src="github.png"
+                alt="github"
+              />
+            </NavLink>
+          </div>
         </div>
-        <div className="gsection gsec2 animate__animated animate__fadeInRightBig animate__fast">
+
+        <div className="gsectionRight gsec2 animate__animated animate__fadeInRightBig animate__fast">
           <div style={{ display: "flex", flexDirection: "column" }}>
             <h1
               style={{
@@ -46,12 +80,16 @@ export const Gasteac = () => {
                 to="https://react.dev/"
                 target="_blank"
               >
-                <div className="zoom-in-out-box">
+                <div className="zoom-in">
                   <img style={{ width: "85px" }} src="react.png" alt="react" />
                 </div>
               </NavLink>
-              <NavLink style={{ margin: "0" }} to="https://nodejs.org/en" target="_blank">
-                <div className="zoom-in-out-box">
+              <NavLink
+                style={{ margin: "0" }}
+                to="https://nodejs.org/en"
+                target="_blank"
+              >
+                <div className="zoom-in">
                   <img
                     style={{ width: "75px" }}
                     src="nodejs.png"
@@ -59,9 +97,13 @@ export const Gasteac = () => {
                   />
                 </div>
               </NavLink>
-              <NavLink style={{ margin: "0" }} to="https://www.mongodb.com/" target="_blank">
+              <NavLink
+                style={{ margin: "0" }}
+                to="https://www.mongodb.com/"
+                target="_blank"
+              >
                 {" "}
-                <div className="zoom-in-out-box">
+                <div className="zoom-in">
                   <img
                     style={{ width: "75px" }}
                     src="mongodb.png"
@@ -69,14 +111,22 @@ export const Gasteac = () => {
                   />
                 </div>
               </NavLink>
-              <NavLink style={{ margin: "0" }} to="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-                <div className="zoom-in-out-box">
+              <NavLink
+                style={{ margin: "0" }}
+                to="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                target="_blank"
+              >
+                <div className="zoom-in">
                   <img src="javascript.png" alt="javascript" />
                 </div>
               </NavLink>
-              <NavLink style={{ margin: "0" }} to="https://flutter.dev/" target="_blank">
+              <NavLink
+                style={{ margin: "0" }}
+                to="https://flutter.dev/"
+                target="_blank"
+              >
                 {" "}
-                <div className="zoom-in-out-box">
+                <div className="zoom-in">
                   <img
                     style={{ width: "75px" }}
                     src="flutter.png"
@@ -84,15 +134,23 @@ export const Gasteac = () => {
                   />
                 </div>
               </NavLink>
-              <NavLink style={{ margin: "0" }} to="https://dart.dev/" target="_blank">
+              <NavLink
+                style={{ margin: "0" }}
+                to="https://dart.dev/"
+                target="_blank"
+              >
                 {" "}
-                <div className="zoom-in-out-box">
+                <div className="zoom-in">
                   <img src="dart.png" alt="dart" />
                 </div>
               </NavLink>
-              <NavLink style={{ margin: "0" }} to="https://www.mysql.com/" target="_blank">
+              <NavLink
+                style={{ margin: "0" }}
+                to="https://www.mysql.com/"
+                target="_blank"
+              >
                 {" "}
-                <div className="zoom-in-out-box">
+                <div className="zoom-in">
                   <img src="mysql.png" alt="mysql" />
                 </div>
               </NavLink>

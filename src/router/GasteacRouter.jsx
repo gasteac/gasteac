@@ -2,8 +2,8 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import {Gasteac} from '../Gasteac'
 import { Navbar } from "../../ui/components/Navbar";
-import { LinkPages } from "../../pages/LinkPages";
 import { AboutPage } from "../../pages/AboutPage";
+import { ContactPage } from "../../pages/ContactPage";
 
 export const GasteacRouter = () => {
   return (
@@ -12,8 +12,8 @@ export const GasteacRouter = () => {
       <Routes>
         <Route path='/*' element={<Gasteac/>}/>
         <Route path='/about' element={<AboutPage/>}/>
-        <Route path='/links' element={<LinkPages/>}/>
 
+        <Route path='/contact' element={<ContactPage/>}/>
       </Routes>
     </>
   );

@@ -4,7 +4,7 @@ export const AboutPage = () => {
   return (
     <>
       <div className="pages aboutMe animate__animated animate__fadeInRightBig animate__fast about">
-        <h1 style={{ color: "white" }}>
+        <h1>
           Hello!
           I'm an advanced student of the Information Systems Engineering career. I am a
           committed individual to my responsibilities and consider myself

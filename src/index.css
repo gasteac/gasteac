@@ -4,6 +4,7 @@
 ::-webkit-scrollbar {
   display: none;
 }
+
 html {
   font-size: 62.5%;
 }
@@ -11,7 +12,10 @@ body {
   margin: 0;
   padding: 0;
   font-size: 1.8em;
-  font-family: "Signika Negative", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
   line-height: 1.3;
   background-image: url(/public/wallpaper.jpg);
   background-position: center;
@@ -49,11 +53,10 @@ h6 {
 
 .homePage {
   display: flex;
-  width: auto;
   height: 100vh;
 }
 
-.gsection {
+.gsectionRight {
   /* background-color: rgba(17, 104, 84, 0.747); */
   width: 50vw;
   display: flex;
@@ -62,9 +65,28 @@ h6 {
   z-index: 0;
 }
 
+.gsectionLeft {
+  /* background-color: rgba(17, 104, 84, 0.747); */
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+
+.tilt {
+  display: flex,;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
 .gsection img {
-  width: 70%;
-  height: auto;
+  width: 30%;
+  justify-self: center;
+  align-self: center;
 }
 
 .pages {
@@ -89,7 +111,6 @@ h6 {
 }
 
 .about h1 {
-  letter-spacing: 5px;
   hyphens: auto;
   padding: 10px;
   max-width: 950px;
@@ -142,35 +163,45 @@ a {
   font-size: 22px;
 }
 
-a:hover {
-  color: rgb(43, 218, 177);
-}
-
-.gasteacLogo {
+/* .gasteacLogo {
   text-decoration: none;
   color: rgb(255, 255, 255);
   margin-right: 20px;
   font-size: 22px;
   font-weight: 400;
+} */
+
+.contact{
+  display: flex;
+  width: 500px;
+  height: 500px;
 }
 
-.active {
-  color: rgb(184, 75, 228);
+.contact h1{
+  font-size: 50px;
 }
 
-.active img {
-  color: rgb(184, 75, 228);
-  filter: drop-shadow(3mm 1mm 3mm rgba(20, 148, 129, 0.897));
+.active{
+  border-bottom: 3px solid rgba(195, 140, 217, 0.52)
 }
 
-.gasteacLogo:hover {
-  text-decoration: none;
+.noUnderline{
+  border-bottom: none;
+}
+
+.active a .img a{
+  border-bottom: none;
+}
+
+
+/* .gasteacLogo:hover {
+  text-decoration: none ;
   color: rgb(43, 218, 177);
   margin-right: 20px;
   font-size: 28px;
-}
+} */
 
-.zoom-in-out-box{
+.zoom-in{
   height: 80px;
   width: 80;
   display: flex;
@@ -178,15 +209,16 @@ a:hover {
   justify-content: space-evenly;
 }
 
-.zoom-in-out-box img{
+.zoom-in img{
   width: 80px;
   height: 78px;
   padding: 5px;
   margin-top: 10px;
 }
 
-.zoom-in-out-box:hover{
-  animation: zoom-in 1s;
+.zoom-in:hover{
+  animation: zoom-in 2s;
+  border-bottom: 0px solid rgba(195, 140, 217, 0)
 }
 
 @keyframes zoom-in {
