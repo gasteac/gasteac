@@ -11,9 +11,10 @@ export const Gasteac = () => {
             style={{
               justifyContent: "center",
               height:'500px',
-              width:'800px',
+              width:'500px',
               alignContent:'center',
-              display:'flex'
+              display:'flex',
+          
             }}
             className="tilt"
           >

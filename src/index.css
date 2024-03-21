@@ -5,23 +5,38 @@
   display: none;
 }
 
+.sweet-container {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.sweet-popup {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(14, 105, 96) !important;
+}
+
 html {
   font-size: 62.5%;
 }
 
-.downloadCv{
+.downloadCv {
   border-bottom: none !important;
 }
 
 .custom-ok {
   font-size: 20px !important;
   font-family: "Playfair Display", serif !important;
-background-color: rgba(108, 17, 161, 0.765) !important;
+  background-color: rgba(108, 17, 161, 0.922) !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 .custom-cancel {
   font-size: 20px !important;
   font-family: "Playfair Display", serif !important;
-  background-color: rgba(14, 105, 96, 0.64) !important;
+  background-color: rgba(0, 0, 0, 0.64) !important;
 }
 body {
   margin: 0;
@@ -81,7 +96,6 @@ h6 {
 }
 
 .gsectionLeft {
-  /* background-color: rgba(17, 104, 84, 0.747); */
   width: 50vw;
   display: flex;
   flex-direction: column;
@@ -90,12 +104,18 @@ h6 {
   z-index: 0;
 }
 
-
 .tilt {
-  display: flex,;
+  display: flex;
   align-content: center;
   align-items: center;
   justify-content: center;
+  background-color: rgba(16, 188, 162, 0.158);
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.tilt img:hover{
+  filter: drop-shadow(0 0 0.75rem rgba(14, 140, 149, 0.801));
 }
 
 .gsection img {
@@ -114,9 +134,9 @@ h6 {
   align-items: center;
 }
 
-.pages img:hover {
+/* .pages img:hover {
   filter: drop-shadow(-3mm -5mm 2mm rgba(108, 17, 161, 0.445));
-}
+} */
 
 .about {
   display: flex;
@@ -134,12 +154,12 @@ h6 {
 .navbar {
   background: linear-gradient(
     to right,
-    rgba(120, 34, 154, 0.52),
-    rgba(14, 105, 96, 0.64)
+    rgba(120, 34, 154, 0.192),
+    rgba(14, 105, 96, 0.192)
   );
   width: 100vw;
   height: 8vh;
-  justify-content: space-evenly;
+  justify-content: end;
   align-items: center;
   padding: 10px;
   display: flex;
@@ -150,8 +170,8 @@ h6 {
 .navbar2 {
   background: linear-gradient(
     to right,
-    rgba(120, 34, 154, 0.52),
-    rgba(14, 105, 96, 0.64)
+    rgba(120, 34, 154, 0.192),
+    rgba(14, 105, 96, 0.192)
   );
   width: 100vw;
   height: 8vh;
@@ -164,11 +184,19 @@ h6 {
 }
 
 .navbar img:hover {
-  filter: drop-shadow(3mm 1mm 3mm rgba(20, 148, 129, 0.897));
+  filter: drop-shadow(2mm 1mm 1mm rgba(16, 188, 162, 0.587));
+}
+
+.navbar .buttons a:hover {
+  filter: drop-shadow(2mm 1mm 1mm rgba(16, 188, 162, 0.587));
+}
+
+.navbar .downloadCv:hover {
+  filter: drop-shadow(2mm 1mm 1mm rgba(16, 188, 162, 0.587));
 }
 
 .navbar2 img:hover {
-  filter: drop-shadow(3mm 1mm 3mm rgba(20, 148, 129, 0.897));
+  filter: drop-shadow(2mm 1mm 1mm rgba(20, 148, 129, 0.507));
 }
 
 a {
@@ -178,36 +206,29 @@ a {
   font-size: 22px;
 }
 
-/* .gasteacLogo {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  margin-right: 20px;
-  font-size: 22px;
-  font-weight: 400;
-} */
-
-.contact{
+.contact {
   display: flex;
   width: 500px;
   height: 500px;
+  justify-content: center;
+  align-items: start;
 }
 
-.contact h1{
+.contact h1 {
   font-size: 50px;
 }
 
-.active{
-  border-bottom: 3px solid rgba(195, 140, 217, 0.52)
+.active {
+  border-bottom: 3px solid rgba(195, 140, 217, 0.52);
 }
 
-.noUnderline{
+.noUnderline {
   border-bottom: none;
 }
 
-.active a .img a{
+.active a .img a {
   border-bottom: none;
 }
-
 
 /* .gasteacLogo:hover {
   text-decoration: none ;
@@ -216,7 +237,7 @@ a {
   font-size: 28px;
 } */
 
-.zoom-in{
+.zoom-in {
   height: 80px;
   width: 80;
   display: flex;
@@ -224,24 +245,47 @@ a {
   justify-content: space-evenly;
 }
 
-.zoom-in img{
+.zoom-in img {
   width: 80px;
   height: 78px;
   padding: 5px;
   margin-top: 10px;
 }
 
-.zoom-in:hover{
+.zoom-in:hover {
   animation: zoom-in 2s;
-  border-bottom: 0px solid rgba(195, 140, 217, 0)
+  border-bottom: 0px solid rgba(195, 140, 217, 0);
 }
 
-.gsectionRight .gitlinkedin{
+.gsectionRight .gitlinkedin {
   display: none !important;
 }
 
-.gsectionLeft h1{
+.gsectionLeft h1 {
   display: none !important;
+}
+
+.navbar .logo2 {
+  display: none;
+  position: absolute;
+  height: 4.5vh;
+  top: 18px;
+  left: 12px;
+}
+
+.navbar2 .logo2 {
+  display: none;
+  position: absolute;
+  height: 4.5vh;
+  top: 18px;
+  left: 12px;
+}
+
+.navbar .logo1 {
+  position: absolute;
+  height: 4.5vh;
+  top: 18px;
+  left: 12px;
 }
 
 @keyframes zoom-in {
@@ -251,19 +295,16 @@ a {
   20% {
     transform: scale(1.2, 1.2);
   }
-
 }
 
 @media only screen and (max-width: 736px) {
-  .navbar img {
+  .navbar .logo1 {
     display: none;
   }
-  .navbar img .logo2{
+  .navbar .logo2 {
     display: block;
   }
-  .gsec1 {
-    width: 100vw;
-  }
+
   .pages {
     flex-direction: column;
     justify-content: space-evenly;
@@ -278,6 +319,9 @@ a {
   .navbar a {
     display: none;
   }
+  .navbar2 .logo2 {
+    display: block;
+  }
   .navbar2 {
     display: flex;
     padding: 15px;
@@ -285,14 +329,14 @@ a {
   .aboutMe h1 {
     font-size: 20px !important;
   }
-  .gsectionLeft{
+  .gsectionLeft {
     display: flex !important;
     width: 100vw !important;
   }
-  .gsectionRight{
+  .gsectionRight {
     display: none !important;
   }
-  .gsectionLeft h1{
+  .gsectionLeft h1 {
     display: flex !important;
   }
 }
@@ -301,11 +345,11 @@ a {
   .gsectionRight {
     width: 100vw;
   }
-  .gsectionRight .gitlinkedin{
+  .gsectionRight .gitlinkedin {
     display: flex !important;
     justify-content: center !important;
   }
-  .gitlinkedin img{
+  .gitlinkedin img {
     width: 100px !important;
     height: 100px !important;
     margin: 20px !important;
@@ -314,4 +358,3 @@ a {
     display: none;
   }
 }
-
