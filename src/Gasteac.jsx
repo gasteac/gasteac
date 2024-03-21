@@ -33,7 +33,59 @@ export const Gasteac = () => {
             >
               React | Nodejs | MongoDB | JavaScript | Flutter | Dart | MySQL
             </h1>
-          
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-evenly",
+                alignItems: "center",
+              }}
+            >
+              <div className="zoom-in-out-box">
+                <img
+                 
+                  src="react.png"
+                  alt="react"
+                />
+              </div>
+              <div className="zoom-in-out-box">
+                <img
+                  
+                  src="nodejs.png"
+                  alt="nodejs"
+                />
+              </div>
+              <div className="zoom-in-out-box">
+                <img
+                 
+                  src="mongodb.png"
+                  alt="mongodb"
+                />
+              </div>
+              <div className="zoom-in-out-box">
+                <img
+                  
+                  src="javascript.png"
+                  alt="javascript"
+                />
+              </div>
+              <div className="zoom-in-out-box">
+                <img
+                  
+                  src="flutter.png"
+                  alt="flutter"
+                />
+              </div>
+              <div className="zoom-in-out-box">
+                <img
+                  
+                  src="dart.png"
+                  alt="dart"
+                />
+              </div>
+              <div className="zoom-in-out-box">
+                <img src="mysql.png" alt="mysql" />
+              </div>
+            </div>
           </div>
         </div>
       </div>

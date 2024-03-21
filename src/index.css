@@ -170,6 +170,35 @@ a:hover {
   font-size: 28px;
 }
 
+.zoom-in-out-box{
+  height: 80px;
+  width: 80;
+}
+
+.zoom-in-out-box img{
+  width: 80px;
+  height: 78px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.zoom-in-out-box:hover{
+
+  width: 80px;
+  height: 80px;
+  animation: zoom-in 1s;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(1, 1);
+  }
+  20% {
+    transform: scale(1.2, 1.2);
+  }
+
+}
+
 @media only screen and (max-width: 736px) {
   .navbar img {
     display: none;
