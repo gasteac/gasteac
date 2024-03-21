@@ -41,25 +41,33 @@ export const Gasteac = () => {
               }}
             >
               <div className="zoom-in-out-box">
-                <img style={{height:'75px'}} src="react.png" alt="react" />
+                <img style={{ width: "85px" }} src="react.png" alt="react" />
               </div>
               <div className="zoom-in-out-box">
-                <img style={{width:'75px'}}  src="nodejs.png" alt="nodejs" />
-              </div>
-              <div  className="zoom-in-out-box">
-                <img style={{width:'75px'}}  src="mongodb.png" alt="mongodb" />
+                <img style={{ width: "75px" }} src="nodejs.png" alt="nodejs" />
               </div>
               <div className="zoom-in-out-box">
-                <img style={{height:'75px'}} src="javascript.png" alt="javascript" />
+                <img
+                  style={{ width: "75px" }}
+                  src="mongodb.png"
+                  alt="mongodb"
+                />
               </div>
               <div className="zoom-in-out-box">
-                <img style={{width:'75px'}} src="flutter.png" alt="flutter" />
+                <img src="javascript.png" alt="javascript" />
               </div>
               <div className="zoom-in-out-box">
-                <img  src="dart.png" alt="dart" />
+                <img
+                  style={{ width: "75px" }}
+                  src="flutter.png"
+                  alt="flutter"
+                />
               </div>
               <div className="zoom-in-out-box">
-                <img  src="mysql.png" alt="mysql" />
+                <img src="dart.png" alt="dart" />
+              </div>
+              <div className="zoom-in-out-box">
+                <img src="mysql.png" alt="mysql" />
               </div>
             </div>
           </div>
