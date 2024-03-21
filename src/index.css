@@ -120,6 +120,12 @@ h6 {
   transition: all 0.4s ease-in;
 }
 
+.tilt img:not(:hover) {
+  filter: none;
+  transform: scale(1, 1);
+  transition: all 0.4s ease-in;
+}
+
 .gsection img {
   width: 30%;
   justify-self: center;
