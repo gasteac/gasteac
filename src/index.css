@@ -173,6 +173,9 @@ a:hover {
 .zoom-in-out-box{
   height: 80px;
   width: 80;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .zoom-in-out-box img{
@@ -183,9 +186,6 @@ a:hover {
 }
 
 .zoom-in-out-box:hover{
-
-  width: 80px;
-  height: 80px;
   animation: zoom-in 1s;
 }
 
