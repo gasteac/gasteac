@@ -17,9 +17,17 @@ export const Gasteac = () => {
             }}
             className="tilt"
           >
+            <div style={{display:'flex', flexDirection:'column'}}>
+            <h1  style={{
+                color: "white",
+                fontSize: "30px",
+                alignSelf: "center",
+                marginBottom: "10px",
+              }}>Gaston E. Acosta</h1>
             <img src="gasteacLogoWhiteOnly.png" alt="logoGasteac" style={{width:'350px', height:'400px'}} />
+            </div>
           </Tilt>
-
+           
           <div style={{display:'flex', justifyContent:'space-around'}}>
             <NavLink target="_blank" to="https://www.linkedin.com/in/gasteac/" style={{margin:'0'}}>
               <img
@@ -41,7 +49,7 @@ export const Gasteac = () => {
           </div>
         </div>
 
-        <div className="gsectionRight gsec2 animate__animated animate__fadeInRightBig animate__fast">
+        <div className="gsectionRight animate__animated animate__fadeInRightBig animate__fast">
           <div style={{ display: "flex", flexDirection: "column" }}>
             <h1
               style={{
@@ -155,6 +163,25 @@ export const Gasteac = () => {
                 </div>
               </NavLink>
             </div>
+            <div className="gitlinkedin" style={{display:'flex', justifyContent:'space-around'}}>
+            <NavLink target="_blank" to="https://www.linkedin.com/in/gasteac/" style={{margin:'0'}}>
+              <img
+                className="zoom-in"
+                style={{ width: "150px", height: "150px", margin:'10px' }}
+                src="linkedin.png"
+                alt="linkedin"
+              />
+            </NavLink>
+
+            <NavLink target="_blank" to="https://github.com/gasteac" style={{margin:'0'}}>
+              <img
+                className="zoom-in"
+                style={{ width: "150px", height: "150px", margin:'10px'}}
+                src="github.png"
+                alt="github"
+              />
+            </NavLink>
+          </div>
           </div>
         </div>
       </div>

@@ -8,6 +8,21 @@
 html {
   font-size: 62.5%;
 }
+
+.downloadCv{
+  border-bottom: none !important;
+}
+
+.custom-ok {
+  font-size: 20px !important;
+  font-family: "Playfair Display", serif !important;
+background-color: rgba(108, 17, 161, 0.765) !important;
+}
+.custom-cancel {
+  font-size: 20px !important;
+  font-family: "Playfair Display", serif !important;
+  background-color: rgba(14, 105, 96, 0.64) !important;
+}
 body {
   margin: 0;
   padding: 0;
@@ -140,7 +155,7 @@ h6 {
   );
   width: 100vw;
   height: 8vh;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   display: flex;
   z-index: 100;
@@ -221,6 +236,14 @@ a {
   border-bottom: 0px solid rgba(195, 140, 217, 0)
 }
 
+.gsectionRight .gitlinkedin{
+  display: none !important;
+}
+
+.gsectionLeft h1{
+  display: none !important;
+}
+
 @keyframes zoom-in {
   0% {
     transform: scale(1, 1);
@@ -262,22 +285,33 @@ a {
   .aboutMe h1 {
     font-size: 20px !important;
   }
+  .gsectionLeft{
+    display: flex !important;
+    width: 100vw !important;
+  }
+  .gsectionRight{
+    display: none !important;
+  }
+  .gsectionLeft h1{
+    display: flex !important;
+  }
 }
 
-@media only screen and (max-width: 1075px) {
-  .gsec2 {
-    display: none;
-  }
-  .gsec1 {
+@media only screen and (max-width: 1125px) {
+  .gsectionRight {
     width: 100vw;
   }
-}
-
-@media only screen and (max-width: 360px) {
-  .navbar2 h3 {
+  .gsectionRight .gitlinkedin{
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .gitlinkedin img{
+    width: 100px !important;
+    height: 100px !important;
+    margin: 20px !important;
+  }
+  .gsectionLeft {
     display: none;
   }
-  .navbar2 {
-    display: flex;
-  }
 }
+
