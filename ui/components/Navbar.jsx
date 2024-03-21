@@ -23,14 +23,14 @@ export const Navbar = () => {
     <>
     
       <div className="navbar">
-        <NavLink  className={({ isActive }) => `nav-link ${isActive ? 'noUnderline' : ""}`} to="/home">
+        <NavLink  className={({ isActive }) => `nav-link ${isActive ? 'noUnderline' : ""}`} to="/">
           <img
           className="logo1"
             src="gasteac.png"
             alt="gasteacLogo"
           />
         </NavLink>
-        <NavLink  className={({ isActive }) => `nav-link ${isActive ? 'noUnderline' : ""}`} to="/home">
+        <NavLink  className={({ isActive }) => `nav-link ${isActive ? 'noUnderline' : ""}`} to="/">
           <img
           className="logo2"
             src="gasteacLogoWhiteOnly.png"
