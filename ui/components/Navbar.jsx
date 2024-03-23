@@ -23,20 +23,29 @@ export const Navbar = () => {
     <>
     
       <div className="navbar">
-        <NavLink  className={({ isActive }) => `nav-link ${isActive ? 'noUnderline' : ""}`} to="/">
+        {/* <NavLink  className={({ isActive }) => `nav-link ${isActive ? 'noUnderline' : ""}`} to="/">
           <img
           className="logo1"
             src="gasteac.png"
             alt="gasteacLogo"
           />
-        </NavLink>
+        </NavLink> */}
+        <NavLink
+        className='logo1'
+            to="/"
+          >
+            gasteac
+          </NavLink>
+
+
+{/* 
         <NavLink  className={({ isActive }) => `nav-link ${isActive ? 'noUnderline' : ""}`} to="/">
           <img
           className="logo2"
             src="gasteacLogoWhiteOnly.png"
             alt="gasteacLogo"
           />
-        </NavLink>
+        </NavLink> */}
 
     
 
@@ -46,7 +55,7 @@ export const Navbar = () => {
             className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}
             to="/about"
           >
-            «About Me/»
+            «About/»
           </NavLink>
         
           <NavLink
@@ -55,26 +64,13 @@ export const Navbar = () => {
           >
             «Contact/»
           </NavLink>
-        </div>
+        
         <NavLink className='downloadCv' onClick={()=>mostrarAlerta()}>
           «Download CV»
         </NavLink>
       </div>
-
-      <div className="navbar2">
-      <NavLink  className={({ isActive }) => `nav-link ${isActive ? 'noUnderline' : ""}`} to="/home">
-          <img
-          className="logo2"
-            src="gasteacLogoWhiteOnly.png"
-            alt="gasteacLogo"
-          />
-        </NavLink>
-        <h3>
-             <NavLink className='downloadCv' onClick={()=>mostrarAlerta()}>
-          «Download CV»
-        </NavLink>
-        </h3>
-      </div>
+</div>
+     
     </>
   );
 };

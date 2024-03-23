@@ -10,8 +10,8 @@ export const Gasteac = () => {
           <Tilt
             style={{
               justifyContent: "center",
-              height:'500px',
-              width:'500px',
+              height:'420px',
+              width:'420px',
               alignContent:'center',
               display:'flex',
           
@@ -19,13 +19,13 @@ export const Gasteac = () => {
             className="tilt"
           >
             <div style={{display:'flex', flexDirection:'column'}}>
-            <h1  style={{
+            {/* <h1  style={{
                 color: "white",
                 fontSize: "30px",
                 alignSelf: "center",
-                marginBottom: "10px",
-              }}>Gaston E. Acosta</h1>
-            <img src="gasteacLogoWhiteOnly.png" alt="logoGasteac" style={{width:'350px', height:'400px'}} />
+                marginBottom: "3px",
+              }}>Gaston E. Acosta</h1> */}
+            <img src="whiteWolf.png" alt="logoGasteac" style={{width:'350px', height:'400px'}} />
             </div>
           </Tilt>
            
