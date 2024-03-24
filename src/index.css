@@ -6,7 +6,8 @@
 }
 
 .sweet-container {
-  background-color: rgba(0, 0, 0, 0) !important;
+  background-color:  rgba(0, 0, 0, 0.689) !important;
+  backdrop-filter: blur(150px) !important;
 }
 
 .sweet-popup {
@@ -15,7 +16,8 @@
   align-items: center !important;
   flex-direction: column !important;
   color: rgb(255, 255, 255) !important;
-  background: linear-gradient(45deg, #06827c, #6d1881 ) !important;
+  background: rgba(0, 0, 0, 0.308) !important;
+  backdrop-filter: blur(50%) !important;
   border-radius: 25px !important;
   width: 500px;
   height: 250px;
@@ -233,17 +235,7 @@ a {
   font-size: 22px;
 }
 
-.contact {
-  display: flex;
-  width: 500px;
-  height: 500px;
-  justify-content: center;
-  align-items: start;
-}
 
-.contact h1 {
-  font-size: 50px;
-}
 
 .active:not(.logo1) {
   border-bottom: 3px solid rgba(195, 140, 217, 0.52);
@@ -348,6 +340,7 @@ a {
   .gsectionLeft h1 {
     display: flex !important;
   }
+  
 }
 
 @media only screen and (max-width: 1125px) {

@@ -3,7 +3,7 @@ import "animate.css";
 export const AboutPage = () => {
   return (
     <>
-      <div className="pages aboutMe animate__animated animate__fadeInRightBig animate__fast about">
+      <div className="pages aboutMe animate__animated animate__fadeIn about">
      
         <h2>
           I'm an advanced student of the Information Systems Engineering
