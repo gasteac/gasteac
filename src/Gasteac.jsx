@@ -72,12 +72,18 @@ export const Gasteac = () => {
             >
               Full Stack Developer
             </h1>
-            <h1
-              style={{ color: "white", fontSize: "20px", alignSelf: "center" }}
+            <h2
+              style={{ color: "white", fontSize: "18px", alignSelf: "center" }}
             >
               React | Nodejs | MongoDB | JavaScript | Flutter | Dart | MySQL
-            </h1>
+            </h2>
+
+
+
+
+            
             <div
+            className="fadeIn"
               style={{
                 display: "flex",
                 justifyContent: "space-evenly",

@@ -3,7 +3,22 @@ import Swal from "sweetalert2";
 export const Navbar = () => {
   const mostrarAlerta = () => {
     Swal.fire({
+     
       html: "<h1>Download Resume?</h1>",
+      showClass: {
+        popup: `
+          animate__animated
+          animate__fadeInUp
+          animate__faster
+        `
+      },
+      hideClass: {
+        popup: `
+          animate__animated
+          animate__fadeOutUp
+          animate__faster
+        `
+      },
       customClass: {
         confirmButton: "custom-ok",
         cancelButton: "custom-cancel",

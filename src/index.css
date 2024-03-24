@@ -15,12 +15,16 @@
   align-items: center !important;
   flex-direction: column !important;
   color: rgb(255, 255, 255) !important;
-  background-color: rgb(14, 105, 96) !important;
+  background: linear-gradient(45deg, #06827c, #6d1881 ) !important;
+  border-radius: 25px !important;
+  width: 500px;
+  height: 250px;
+  font-size: 20px;
+  backdrop-filter: blur(100%);
 }
 
 html {
   font-size: 62.5%;
-  
 }
 
 .downloadCv {
@@ -28,18 +32,21 @@ html {
 }
 
 .custom-ok {
-  font-family: "Poppins", sans-serif !important;
-  font-weight: 200 !important;
-  font-style: normal !important;
-  background-color: rgba(108, 17, 161, 0.922) !important;
+  font-family: "Nunito Sans", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 300 !important;
+
+  background-color: rgb(11, 134, 117) !important;
   outline: none !important;
   box-shadow: none !important;
 }
 .custom-cancel {
-  font-family: "Poppins", sans-serif !important;
-  font-weight: 200 !important;
-  font-style: normal !important;
-  background-color: rgba(0, 0, 0, 0.64) !important;
+  font-family: "Nunito Sans", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 300 !important;
+  background-color: rgba(108, 17, 161, 0.922) !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 body {
   margin: 0;
@@ -58,8 +65,6 @@ body {
   height: 100vh;
   backdrop-filter: blur(150px);
 }
-
-
 
 h1 {
   font-size: 3rem;
@@ -92,12 +97,20 @@ h6 {
 }
 
 .gsectionRight {
+  
   /* background-color: rgba(17, 104, 84, 0.747); */
   width: 50vw;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 0;
+}
+
+.gsectionRight h1{
+  background: linear-gradient(45deg,  #05b3aa, #be5ad4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 
 .gsectionLeft {
@@ -132,11 +145,11 @@ h6 {
   transform: scale(1, 1);
   transition: all 0.4s ease-in;
 }
-.gsection img {
+/* .gsection img {
   width: 30%;
   justify-self: center;
   align-self: center;
-}
+} */
 
 .pages {
   color: white;
@@ -162,7 +175,7 @@ h6 {
 
 .about h2 {
   hyphens: auto;
-  max-width: 1020px;
+  max-width: 980px;
 }
 
 .navbar {
@@ -244,7 +257,6 @@ a {
   border-bottom: none;
 }
 
-
 .zoom-in {
   height: 80px;
   width: 80;
@@ -261,8 +273,8 @@ a {
 }
 
 .zoom-in:hover {
-  animation: zoom-in 2s;
-  border-bottom: 0px solid rgba(195, 140, 217, 0);
+  animation: zoom-in 1s;
+  /* border-bottom: 0px solid rgba(195, 140, 217, 0); */
 }
 
 .gsectionRight .gitlinkedin {
@@ -298,11 +310,9 @@ a {
 
 
 
-@keyframes zoom-in {
-  0% {
-    transform: scale(1, 1);
-  }
-  20% {
+
+@keyframes zoom-in  {
+  10% {
     transform: scale(1.2, 1.2);
   }
 }
@@ -311,7 +321,7 @@ a {
   .navbar .logo1 {
     display: none;
   }
-  .navbar{
+  .navbar {
     justify-content: end;
   }
   .pages {
@@ -325,8 +335,6 @@ a {
 }
 
 @media only screen and (max-width: 560px) {
-
- 
   .aboutMe h1 {
     font-size: 20px !important;
   }
@@ -359,3 +367,37 @@ a {
     display: none;
   }
 }
+
+.fadeIn {
+  animation: fadeInOut 5s linear 10000 forwards;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+
+/* .fadeIn {
+  width:200px;
+  height: 200px;
+  background: red;
+  -webkit-animation: fadeinout 4s linear forwards;
+  animation: fadeinout 4s linear forwards;
+  opacity: 0;
+}
+
+@-webkit-keyframes fadeinout {
+50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+50% { opacity: 1; }
+} */

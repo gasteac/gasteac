@@ -7,27 +7,24 @@ export const AboutPage = () => {
      
         <h2>
           I'm an advanced student of the Information Systems Engineering
-          career. I am a committed individual to my responsibilities and
+          career at the UTN Frre. I am a committed individual to my responsibilities and
           consider myself competent to face any challenge due to my dedication.
           I am highly critical, thus always striving for things to be done
           properly. I value teamwork and collaboration, as well as
-          communication, which I deem fundamental to achieving any goal.
+          communication.
         </h2>
         <h2>
           Throughout my academic journey, I have actively participated in
           various projects within my faculty, gaining valuable hands-on
           experience and honing my skills in software development,
           problem-solving, and project management. As a student deeply
-          passionate about technology and innovation, I am now seeking an
-          opportunity to apply my knowledge in a professional setting.
+          passionate about technology and innovation.
         </h2>
         <h2>
-          I possess good communication skills, which have been instrumental in
-          my academic and extracurricular endeavors. Additionally, I'm
+          I possess good communication skills, additionally, I'm
           commitment to tasks, critical thinking abilities, and flexibility in
           adapting to new challenges. Moreover, my creativity and teamwork
-          skills have allowed me to thrive in collaborative environments,
-          driving successful outcomes.
+          skills have allowed me to thrive in collaborative environments.
         </h2>
       </div>
     </>
