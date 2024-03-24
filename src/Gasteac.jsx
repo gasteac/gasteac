@@ -6,6 +6,26 @@ export const Gasteac = () => {
   return (
     <>
       <div className="homePage">
+        <div className="secretSection">
+        <NavLink target="_blank" to="https://www.linkedin.com/in/gasteac/" style={{margin:'0'}}>
+              <img
+                className="gitlinksec1"
+                style={{ width: "150px", height: "150px", margin:'10px' }}
+                src="linkedin.png"
+                alt="linkedin"
+              />
+            </NavLink>
+
+            <NavLink target="_blank" to="https://github.com/gasteac" style={{margin:'0'}}>
+              <img
+                className="gitlinksec1"
+                style={{ width: "150px", height: "150px", margin:'10px'}}
+                src="github.png"
+                alt="github"
+              />
+            </NavLink>
+          
+        </div>
         <div className="gsectionLeft animate__animated animate__fadeInLeftBig animate__fast">
           <Tilt
             style={{
@@ -18,21 +38,16 @@ export const Gasteac = () => {
             }}
             className="tilt"
           >
-            <div style={{display:'flex', flexDirection:'column'}}>
-            {/* <h1  style={{
-                color: "white",
-                fontSize: "30px",
-                alignSelf: "center",
-                marginBottom: "3px",
-              }}>Gaston E. Acosta</h1> */}
-            <img src="whiteWolf.png" alt="logoGasteac" style={{width:'350px', height:'400px'}} />
+            <div  style={{display:'flex', flexDirection:'column'}}>
+       
+            <img src="whiteWolf.png" className="logoGasteac" style={{width:'450px', height:'500px'}} />
             </div>
           </Tilt>
            
-          <div style={{display:'flex', justifyContent:'space-around'}}>
+          <div className="gitlinksec1big" style={{display:'flex', justifyContent:'space-around'}}>
             <NavLink target="_blank" to="https://www.linkedin.com/in/gasteac/" style={{margin:'0'}}>
               <img
-                className="zoom-in"
+                className="gitlinksec1"
                 style={{ width: "150px", height: "150px", margin:'10px' }}
                 src="linkedin.png"
                 alt="linkedin"
@@ -41,7 +56,7 @@ export const Gasteac = () => {
 
             <NavLink target="_blank" to="https://github.com/gasteac" style={{margin:'0'}}>
               <img
-                className="zoom-in"
+                className="gitlinksec1"
                 style={{ width: "150px", height: "150px", margin:'10px'}}
                 src="github.png"
                 alt="github"
@@ -83,7 +98,7 @@ export const Gasteac = () => {
 
             
             <div
-            className="fadeIn"
+          
               style={{
                 display: "flex",
                 justifyContent: "space-evenly",
@@ -170,25 +185,7 @@ export const Gasteac = () => {
                 </div>
               </NavLink>
             </div>
-            <div className="gitlinkedin" style={{display:'flex', justifyContent:'space-around'}}>
-            <NavLink target="_blank" to="https://www.linkedin.com/in/gasteac/" style={{margin:'0'}}>
-              <img
-                className="zoom-in"
-                style={{ width: "150px", height: "150px", margin:'10px' }}
-                src="linkedin.png"
-                alt="linkedin"
-              />
-            </NavLink>
-
-            <NavLink target="_blank" to="https://github.com/gasteac" style={{margin:'0'}}>
-              <img
-                className="zoom-in"
-                style={{ width: "150px", height: "150px", margin:'10px'}}
-                src="github.png"
-                alt="github"
-              />
-            </NavLink>
-          </div>
+           
           </div>
         </div>
       </div>
