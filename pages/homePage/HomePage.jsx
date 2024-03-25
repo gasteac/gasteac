@@ -1,13 +1,12 @@
 import "animate.css";
-import Tilt from "react-parallax-tilt";
 import "./homePage.css";
 import { NavLink } from "react-router-dom";
 
-export const HomePage2 = () => {
+export const HomePage = () => {
   return (
     <>
       <div className="homePage">
-        <div className="section">
+        <div className="section animate__animated  animate__fadeIn animate__slower">
           <h1>Gaston Acosta</h1>
           <div className="socialLinks">
               <NavLink target="_blank" to="https://www.linkedin.com/in/gasteac/">

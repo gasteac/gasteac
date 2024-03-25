@@ -40,7 +40,7 @@ export const ContactPage = () => {
   });
   const [sent, setSent] = useState(false);
   return (
-    <div className="contactPage">
+    <div className="contactPage  animate__animated  animate__fadeIn animate__slower">
       <div className="login-box">
         <form onSubmit={formik.handleSubmit}>
           <div className="user-box">

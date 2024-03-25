@@ -4,41 +4,9 @@ import "./aboutPage.css";
 
 
 export const AboutPage = () => {
-
-  // const mostrarAlerta = () => {
-  //   Swal.fire({
-  //     html: "<h1>Download Resume?</h1>",
-  //     showClass: {
-  //       popup: `
-  //         animate__animated
-  //         animate__fadeInUp
-  //         animate__faster
-  //       `,
-  //     },
-  //     hideClass: {
-  //       popup: `
-  //         animate__animated
-  //         animate__fadeOutUp
-  //         animate__faster
-  //       `,
-  //     },
-  //     customClass: {
-  //       confirmButton: "custom-ok",
-  //       cancelButton: "custom-cancel",
-  //       container: "sweet-container",
-  //       popup: "sweet-popup",
-  //     },
-  //     showCancelButton: true,
-  //     confirmButtonText: "OK",
-  //   }).then((result) => {
-  //     if (result.isConfirmed)
-  //       window.location =
-  //         "https://drive.usercontent.google.com/download?id=1LWntKrjkPRPQUMDSckOqljj0uSmnvIiF&export=download&authuser=0&confirm=t&uuid=2b8f4a76-1f72-483a-b8dc-b256c2068d20&at=APZUnTUf5KZpxR1l0bewC9ffYThe:1710977473551";
-  //   });
-  // };
   return (
     <>
-      <div  className="about">
+      <div  className="about  animate__animated  animate__fadeIn animate__slower">
         <div className="aboutText">
           <div className="aboutmebutton">
             <h1>About me</h1>{" "}
