@@ -70,7 +70,7 @@
 }
 
 .sectionIcons img {
-  filter:  grayscale(100%) !important;
+  filter:  grayscale(33%) !important;
   display: flex;
   width: auto;
   max-height: 80px;
@@ -78,7 +78,7 @@
 }
 
 .sectionIcons img:hover {
-  filter:  grayscale(20%) !important;
+  filter:  grayscale(0%) !important;
   transform: scale(1.1, 1.1);
   transition: all 0.1s ease-in;
 }
