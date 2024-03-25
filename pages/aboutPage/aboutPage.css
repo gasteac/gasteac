@@ -5,7 +5,6 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 20px;
 }
 
 @media (max-width: 776px){
@@ -13,8 +12,9 @@
     font-size: 1.3rem !important;
   }
 }
-
-
+.about body{
+  height: 130vh;
+}
 .aboutText {
   hyphens: auto;
   text-align: center;
@@ -53,4 +53,15 @@
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
+}
+
+@media (max-width: 500px){
+  .aboutmebutton h1,
+  .aboutmebutton button
+  {
+    font-size: 20px !important;
+  }
+  .about p{
+    font-size: 1.1rem !important;
+  }
 }

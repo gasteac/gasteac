@@ -7,7 +7,7 @@
 .login-box {
   width: 85%;
   font-size: 1.7rem;
-  margin-top: 90px;
+  margin-top: 20px;
   padding: 15px;
   background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3E5M3o3MDB4NHVqdWMzeDJlajFsN211eWZiN2lveWl4NXVxcXRiaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/q3k9yg1qoFzoy1D8du/giphy.gif); /* La misma imagen que usas en el <img> */
   background-size: cover;
