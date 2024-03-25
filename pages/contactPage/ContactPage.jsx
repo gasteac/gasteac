@@ -112,7 +112,7 @@ export const ContactPage = () => {
               </a>
             </button>
             {sent ? (
-              <p style={{color:'green'}} id="done" >
+              <p className="animate__animated  animate__fadeIn animate__slower" style={{color:'green'}} id="done" >
                 Sent!
               </p>
             ) : (
