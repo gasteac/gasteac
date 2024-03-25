@@ -29,6 +29,7 @@
 }
 
 nav a {
+  font-size: 20px ;
   height: 100%;
   display: flex;
   padding: 0 20px;
