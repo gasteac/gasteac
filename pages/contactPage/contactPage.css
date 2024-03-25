@@ -4,12 +4,11 @@
   justify-content: center;
 }
 
-
 .login-box {
+  width: 85%;
   font-size: 1.7rem;
-  transform: scale(1.2, 1.2);
-  margin-top: 120px;
-  padding: 20px;
+  margin-top: 90px;
+  padding: 15px;
   background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3E5M3o3MDB4NHVqdWMzeDJlajFsN211eWZiN2lveWl4NXVxcXRiaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/q3k9yg1qoFzoy1D8du/giphy.gif); /* La misma imagen que usas en el <img> */
   background-size: cover;
   background-position: center;
@@ -85,6 +84,7 @@ input:-webkit-autofill:active {
 }
 
 .login-box button {
+  margin-top: 20px;
   color: transparent;
   background-color: transparent;
   border: none;
@@ -199,5 +199,11 @@ input:-webkit-autofill:active {
   50%,
   100% {
     bottom: 100%;
+  }
+}
+
+@media (min-width:870px){
+  .login-box {
+    width: 40vw !important;
   }
 }

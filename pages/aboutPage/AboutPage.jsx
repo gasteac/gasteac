@@ -6,7 +6,7 @@ import "./aboutPage.css";
 export const AboutPage = () => {
   return (
     <>
-      <div  className="about  animate__animated  animate__fadeIn animate__slower">
+      <div  className="about animate__animated  animate__fadeIn animate__slower">
         <div className="aboutText">
           <div className="aboutmebutton">
             <h1>About me</h1>{" "}
@@ -34,7 +34,7 @@ export const AboutPage = () => {
             challenges. Moreover, my creativity and teamwork skills have allowed
             me to thrive in collaborative environments.
           </p>
-          <p>And yes I love cats, coffe, the galaxy, and wolves.</p>
+      
         </div>
       </div>
     </>

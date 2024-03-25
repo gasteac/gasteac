@@ -4,8 +4,26 @@ import "./contactPage.css";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import gasteacApi from "../../api/gasteacApi";
-
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 export const ContactPage = () => {
+  // const handleSucces = () => {
+  //   Swal.fire({
+  //     customClass: {
+  //       popup: "sweetPopup",
+  //       container: "sweetContainer",
+  //     },
+  //     title: "message sent!",
+  //     timer: 5000000000,
+  //     timerProgressBar: true,
+  //     didOpen: () => {
+  //       Swal.showLoading();
+  //     },
+  //     willClose: () => {
+  //       clearInterval(timerInterval);
+  //     },
+  //   });
+  // };
+
   const formik = useFormik({
     initialValues: {
       email: "",
@@ -17,14 +35,12 @@ export const ContactPage = () => {
       name: Yup.string()
         .max(30, "Must be 30 characters or less")
         .required("Required!"),
-      message: Yup.string()
-        .min(10, "Must be 10 characters or more")
-        .required("Required!"),
+      message: Yup.string().min(5, "Write something!").required("Required!"),
       email: Yup.string().email("Invalid email address").required("Required!"),
     }),
     onSubmit: async ({ name, email, phone = "", message }) => {
       try {
-        const { data } = await gasteacApi.post("/form/new", {
+        await gasteacApi.post("/form/new", {
           name: name,
           email: email,
           phone: phone,
@@ -33,6 +49,7 @@ export const ContactPage = () => {
 
         formik.resetForm();
         setSent(true);
+        handleSucces();
       } catch (error) {
         console.log(error);
       }
@@ -70,12 +87,13 @@ export const ContactPage = () => {
               name="email"
               onChange={formik.handleChange}
               value={formik.values.email}
-              type="text"
+              type="email"
             />
           </div>
           <div className="user-box">
             <label htmlFor="phone">Phone</label>
             <input
+              type="text"
               name="phone"
               onChange={formik.handleChange}
               value={formik.values.phone}
@@ -94,14 +112,7 @@ export const ContactPage = () => {
               value={formik.values.message}
             ></textarea>
           </div>
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "space-between",
-            }}
-          >
-         
+          <div style={{ display: "flex", justifyContent: "end" }}>
             <button type="submit">
               <a type="submit">
                 <span></span>
@@ -111,13 +122,6 @@ export const ContactPage = () => {
                 Submit
               </a>
             </button>
-            {sent ? (
-              <p className="animate__animated  animate__fadeIn animate__slower" style={{color:'green'}} id="done" >
-                Sent!
-              </p>
-            ) : (
-              ""
-            )}
           </div>
         </form>
       </div>

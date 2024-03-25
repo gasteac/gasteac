@@ -1,14 +1,16 @@
-.proyects {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  height: 94vh;
-}
 
 .textProyect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 60px;
+  padding: 20px;
+}
+
+.tilt img{
+  width: 90%;
+  height: auto;
 }
 
 .textProyect p {
@@ -22,6 +24,7 @@
 }
 
 .tilt {
+
   display: flex;
   align-content: center;
   align-items: center;
@@ -35,7 +38,7 @@
 }
 
 .tilt img:hover {
-  filter: drop-shadow(0 0 0.75rem rgba(195, 11, 201, 0.92));
+  filter: drop-shadow(0 0 0.75rem rgba(17, 158, 151, 0.411));
   transform: scale(1.1, 1.1);
   transition: all 0.2s ease-in;
 }

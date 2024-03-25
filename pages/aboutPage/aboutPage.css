@@ -1,46 +1,49 @@
-.about {
+
+.about{
   display: flex;
-  align-items: start;
+  flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
 }
+
+@media (max-width: 776px){
+  .about p{
+    font-size: 1.3rem !important;
+  }
+}
+
 
 .aboutText {
   hyphens: auto;
   text-align: center;
   width: 80vw;
-  padding: 60px;
 }
-
 .aboutmebutton{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-
-.aboutmebutton h1{
-  margin: 0;
-}
-
 .about p {
-  text-overflow: ellipsis;
   hyphens: auto;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   -moz-osx-font-smoothing: grayscale !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-font-smoothing: antialiased !important;
   text-rendering: optimizelegibility !important;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
 }
 
 .about button {
   font-family: monospace;
   color: white;
-  padding: 20px;
+  padding: 10px;
   border: none;
   text-decoration: none;
   border-radius: 20px;
-  font-size: 30px;
+  font-size: 2rem;
   margin-left: 20px;
   cursor: pointer;
   letter-spacing: 0.05rem;
