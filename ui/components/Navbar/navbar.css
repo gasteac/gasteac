@@ -29,13 +29,13 @@
 }
 
 nav a {
+  color: rgba(255, 255, 255, 0.836);
   font-size: 20px ;
   height: 100%;
   display: flex;
   padding: 0 20px;
   align-items: center;
   text-decoration: none;
-  color: var(--text-color);
 }
 
 nav a:hover{
@@ -55,7 +55,7 @@ nav svg {
   display: none;
 }
 
-@media (max-width: 525px) {
+@media (max-width: 630px) {
   .links-container {
     flex-direction: column;
     align-items: flex-start;
