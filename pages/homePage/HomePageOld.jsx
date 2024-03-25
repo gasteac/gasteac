@@ -1,8 +1,8 @@
 import "animate.css";
 import { NavLink } from "react-router-dom";
 import Tilt from "react-parallax-tilt";
-
-export const Gasteac = () => {
+import './homePage.css'
+export const HomePageOld = () => {
   return (
     <>
       <div className="homePage">
@@ -38,9 +38,9 @@ export const Gasteac = () => {
             }}
             className="tilt"
           >
-            <div  style={{display:'flex', flexDirection:'column'}}>
+            <div>
        
-            <img src="whiteWolf.png" className="logoGasteac" style={{width:'450px', height:'500px'}} />
+            <img src="whiteWolf.png" style={{width:'450px', height:'500px'}} />
             </div>
           </Tilt>
            

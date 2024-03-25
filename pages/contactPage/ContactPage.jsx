@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import "animate.css";
-import "./formStyle.css";
+import "./contactPage.css";
 import { useFormik } from "formik";
 import * as Yup from "yup";
-import gasteacApi from "../api/gasteacApi";
-
+import gasteacApi from "../../api/gasteacApi";
 
 
 export const ContactPage = () => {
+  
   const formik = useFormik({
     initialValues: {
       email: "",
@@ -96,7 +96,7 @@ export const ContactPage = () => {
               ) : null}
             </div>
             <button type="submit">
-              <a>
+              <a type="submit">
                 <span></span>
                 <span></span>
                 <span></span>

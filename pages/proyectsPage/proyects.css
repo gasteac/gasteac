@@ -1,0 +1,47 @@
+.proyects {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 94vh;
+}
+
+.textProyect {
+  text-align: center;
+  padding: 60px;
+}
+
+.textProyect p {
+  hyphens: auto;
+  font-size: 1.5em;
+  -moz-osx-font-smoothing: grayscale !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-font-smoothing: antialiased !important;
+  text-rendering: optimizelegibility !important;
+  letter-spacing: 0.03em;
+}
+
+.tilt {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHo3Z3F4bjN5N2pleTk5bng3Ymkyc2VzcTByODk2NnlyM2xjajdxeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/S52TYTC2MIKjXUVXd6/giphy.gif); /* La misma imagen que usas en el <img> */
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.tilt img:hover {
+  filter: drop-shadow(0 0 0.75rem rgba(195, 11, 201, 0.92));
+  transform: scale(1.1, 1.1);
+  transition: all 0.2s ease-in;
+}
+
+.tilt img:not(:hover) {
+  filter: none;
+  transform: scale(1, 1);
+  transition: all 0.2s ease-out;
+}

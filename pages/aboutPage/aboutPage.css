@@ -1,0 +1,53 @@
+.about {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  height: 100vh;
+}
+
+.aboutText {
+  hyphens: auto;
+  text-align: center;
+  width: 100vw;
+  padding: 60px;
+}
+
+.aboutmebutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutmebutton h1{
+  margin: 0;
+}
+
+.about p {
+  text-overflow: ellipsis;
+  hyphens: auto;
+  font-size: 1.5em;
+  -moz-osx-font-smoothing: grayscale !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-font-smoothing: antialiased !important;
+  text-rendering: optimizelegibility !important;
+  letter-spacing: 0.03em;
+}
+
+.about button {
+  font-family: monospace;
+  color: white;
+  padding: 20px;
+  border: none;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  letter-spacing: 0.05rem;
+  font-weight: 800;
+  letter-spacing: 0.4rem;
+  background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3k1cDBlNHF1azhxdzFzMW9lZW45M2dmOTV0MG45Mmh1d3NmN3h4diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7FgDOBGyFLgns6aiKb/giphy.gif); /* La misma imagen que usas en el <img> */
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}

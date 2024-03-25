@@ -1,0 +1,417 @@
+* {
+    box-sizing: border-box;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .sweet-container {
+    background-color:  rgba(0, 0, 0, 0.689) !important;
+    backdrop-filter: blur(150px) !important;
+  }
+  
+  .sweet-popup {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    color: rgb(255, 255, 255) !important;
+    background: rgba(0, 0, 0, 0.308) !important;
+    backdrop-filter: blur(50%) !important;
+    border-radius: 25px !important;
+    width: 500px;
+    height: 250px;
+    font-size: 20px;
+    backdrop-filter: blur(100%);
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  .downloadCv {
+    border-bottom: none !important;
+  }
+  
+  .custom-ok {
+    font-family: "Nunito Sans", sans-serif !important;
+    font-optical-sizing: auto !important;
+    font-weight: 300 !important;
+  
+    background-color: rgb(11, 134, 117) !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  .custom-cancel {
+    font-family: "Nunito Sans", sans-serif !important;
+    font-optical-sizing: auto !important;
+    font-weight: 300 !important;
+    background-color: rgba(108, 17, 161, 0.922) !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.8em;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.3;
+    background-image: url(/public/wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(150px);
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.4rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1.8rem;
+  }
+  h5 {
+    font-size: 1.6rem;
+  }
+  h6 {
+    font-size: 1.4rem;
+  }
+  #wrapper {
+    width: 980px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .homePage {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .gsectionRight {
+    
+    /* background-color: rgba(17, 104, 84, 0.747); */
+    width: 50vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    z-index: 0;
+  }
+  
+  .gsectionRight h1{
+    background: linear-gradient(45deg,  #86e8f5c0, #f0adff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  }
+  
+  .gsectionLeft {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+  }
+  
+  .tilt {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.13);
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .G img{
+    max-height: 6vh !important;
+  }
+  
+  .G{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.4s ease-in;
+  }
+  
+  .G:hover {
+    filter: drop-shadow(0 0 rem rgba(188, 8, 194, 0.922));
+    transition: all 0.2s ease-in;
+  }
+  
+  .tilt img:hover {
+    filter: drop-shadow(0 0 0.75rem rgba(195, 11, 201, 0.92));
+    transform: scale(1.2, 1.2);
+    transition: all 0.8s ease-in;
+  }
+  
+  .tilt img:not(:hover) {
+    filter: none;
+    transform: scale(1, 1);
+    transition: all 0.3s ease-in;
+  }
+  
+  .pages {
+    color: white;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+  }
+  
+  .about h2 {
+    hyphens: auto;
+    max-width: 980px;
+  }
+  
+  .navbar {
+    background: linear-gradient(
+      to right,
+      rgba(120, 34, 154, 0.192),
+      rgba(14, 105, 96, 0.192)
+    );
+    width: 100vw;
+    max-height: 8vh;
+    min-height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    z-index: 100;
+    position: fixed;
+    overflow: hidden;
+  }
+  
+  
+  .navbar .buttons a:hover {
+    filter: drop-shadow(2mm 1mm 1mm rgba(16, 188, 162, 0.587));
+  }
+  
+  .navbar .downloadCv:hover {
+    filter: drop-shadow(2mm 1mm 1mm rgba(16, 188, 162, 0.587));
+  }
+  
+  .navbar2 img:hover {
+    filter: drop-shadow(2mm 1mm 1mm rgba(20, 148, 129, 0.507));
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    font-size: 22px;
+  }
+  
+  
+  .noUnderline {
+    border-bottom: none !important;
+  }
+  
+  .active a .img a {
+    border-bottom: none !important;
+  }
+  
+  .noUnderline {
+    border-bottom: none;
+  }
+  
+  
+  .zoom-in {
+    height: 80px;
+    width: 80;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .zoom-in img {
+    width: 80px;
+    height: 78px;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  
+  .zoom-in:hover {
+    animation: zoom-in 1s;
+  }
+  
+  .gsectionRight .gitlinkedin {
+    display: none !important;
+  }
+  
+  .gsectionLeft h1 {
+    display: none !important;
+  }
+  
+  .gitlinksec1:hover {
+    filter: drop-shadow(0 0 0.75rem rgba(195, 11, 201, 0.92));
+    transition: all 0.1s ease-in;
+  }
+  
+  .gitlinksec1:not(:hover) {
+    filter: none;
+    transition: all 0.1s ease-in;
+  }
+  
+  .gitlinksec1big{
+    display: none !important;
+  }
+  
+  @keyframes zoom-in  {
+    10% {
+      transform: scale(1.2, 1.2);
+    }
+  }
+  
+  @media only screen and (max-width: 736px) {
+  
+    .pages {
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .pages img {
+      margin-top: 60px;
+    }
+  }
+  
+  @media only screen and (max-width: 630px) {
+    .navbar img {
+      display: none;
+    }
+    .aboutMe h1 {
+      font-size: 20px !important;
+    }
+    .gsectionLeft {
+      display: flex !important;
+      width: 100vw !important;
+    }
+    .gsectionRight {
+      display: none !important;
+    }
+    .gsectionLeft h1 {
+      display: flex !important;
+    }
+    .gitlinksec1big{
+      display: block !important;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 1125px) {
+    .gsectionRight {
+      width: 100vw;
+      justify-content: center;
+    }
+  
+    .gitlinkedin img {
+      width: 100px !important;
+      height: 100px !important;
+      margin: 20px !important;
+    }
+    .gsectionLeft {
+      display: none;
+    }
+  }
+  
+  .navbarLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbarLeft a{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .navbarLeft img{
+    max-height: 5vh;
+  }
+  
+  .active{
+    border-bottom: 3px solid rgba(195, 140, 217, 0.52) !important;
+  }
+  
+  .navbar .navbarLeft .G {
+    border-bottom: none !important;
+  }
+  
+  .navbar, .active a{
+    border-bottom: 3px solid rgba(195, 140, 217, 0.52) !important;
+  }
+  
+  .navbarLeft img:active{
+    border-bottom: none !important;
+  }
+  
+  @media only screen and (max-width: 480px){
+    .navbar .buttons a{
+      display: none;
+    }
+    .navbarLeft .G img{
+      display: flex !important
+    }
+  
+    .tilt{
+      background-color: transparent;
+    }
+    .tilt img{
+      width: 350px !important;
+      height: 400px !important;
+    }
+    
+    .tilt img:hover {
+      filter: drop-shadow(0 0 0.75rem rgba(195, 11, 201, 0.92));
+      transform: scale(1.1, 1.1);
+      transition: all 0.4s ease-in;
+    }
+    
+    .tilt img:not(:hover) {
+      filter: none;
+      transform: scale(1, 1);
+      transition: all 0.4s ease-in;
+    }
+  }
+  
+  @media only screen and (max-width: 340px){
+   
+    .gsectionLeft{
+      display: none !important;
+    }
+    .secretSection{
+      display: flex !important;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+    }
+  }
+  
+  .secretSection{
+    display: none;
+  }
+  
+  
