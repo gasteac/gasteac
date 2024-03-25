@@ -6,8 +6,8 @@
 }
 
 .sweet-container {
-  background-color:  rgba(0, 0, 0, 0.689) !important;
-  backdrop-filter: blur(150px) !important;
+  background-color:  rgba(0, 0, 0, 0.799) !important;
+
 }
 
 .sweet-popup {
@@ -16,13 +16,11 @@
   align-items: center !important;
   flex-direction: column !important;
   color: rgb(255, 255, 255) !important;
-  background: rgba(0, 0, 0, 0.308) !important;
-  backdrop-filter: blur(50%) !important;
+  background: #064136b9 !important;
   border-radius: 25px !important;
   width: 500px;
   height: 250px;
   font-size: 20px;
-  backdrop-filter: blur(100%);
 }
 
 html {
@@ -38,7 +36,7 @@ html {
   font-optical-sizing: auto !important;
   font-weight: 300 !important;
 
-  background-color: rgb(11, 134, 117) !important;
+  background-color: rgba(11, 134, 117, 0) !important;
   outline: none !important;
   box-shadow: none !important;
 }
@@ -46,7 +44,7 @@ html {
   font-family: "Nunito Sans", sans-serif !important;
   font-optical-sizing: auto !important;
   font-weight: 300 !important;
-  background-color: rgba(108, 17, 161, 0.922) !important;
+  background-color: rgba(108, 17, 161, 0) !important;
   outline: none !important;
   box-shadow: none !important;
 }
@@ -59,13 +57,9 @@ body {
   font-weight: 300;
   font-style: normal;
   line-height: 1.3;
-  background-image: url(/public/wallpaper.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: repeat;
+  background: linear-gradient(to bottom, #000000, 80%, #044e3f);
   width: 100vw;
   height: 100vh;
-  backdrop-filter: blur(150px);
 }
 
 h1 {
@@ -109,7 +103,7 @@ h6 {
 }
 
 .gsectionRight h1{
-  background: linear-gradient(45deg,  #86e8f5c0, #f0adff);
+  background: linear-gradient(to bottom, #086c58, 80%, #0cdc9a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -129,7 +123,7 @@ h6 {
   align-content: center;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.13);
+  background-color: rgba(13, 148, 148, 0.224);
   border-radius: 20px;
   margin-bottom: 20px;
 }
@@ -150,9 +144,9 @@ h6 {
 }
 
 .tilt img:hover {
-  filter: drop-shadow(0 0 0.75rem rgba(195, 11, 201, 0.92));
-  transform: scale(1.2, 1.2);
-  transition: all 0.8s ease-in;
+  filter: drop-shadow(0 0 0.75rem rgba(255, 255, 255, 0.676));
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s ease-in;
 }
 
 .tilt img:not(:hover) {
@@ -186,11 +180,6 @@ h6 {
 }
 
 .navbar {
-  background: linear-gradient(
-    to right,
-    rgba(120, 34, 154, 0.192),
-    rgba(14, 105, 96, 0.192)
-  );
   width: 100vw;
   max-height: 8vh;
   min-height: 8vh;
@@ -297,7 +286,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 635px) {
   .navbar img {
     display: none;
   }
@@ -353,7 +342,7 @@ a {
 }
 
 .active{
-  border-bottom: 3px solid rgba(195, 140, 217, 0.52) !important;
+  border-bottom: 1px solid #ECFDF9 !important;
 }
 
 .navbar .navbarLeft .G {
@@ -361,7 +350,7 @@ a {
 }
 
 .navbar, .active a{
-  border-bottom: 3px solid rgba(195, 140, 217, 0.52) !important;
+  border-bottom: 4px solid rgba(21, 128, 147, 0.356) !important;
 }
 
 .navbarLeft img:active{
@@ -415,69 +404,85 @@ a {
   display: none;
 }
 
-
-.button-85 {
-  padding: 0.6em 2em;
-  border: none;
-  outline: none;
-  color: #03e9f4;
+.buttonNav{
+  align-items: center;
+  
+  background-image: linear-gradient(#464d55, #25292e);
+  border-radius: 8px;
+  border-width: 0;
+  
+  box-sizing: border-box;
+  color: #fff;
   cursor: pointer;
-  position: relative;
-  z-index: 0;
-  border-radius: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  outline: none;
+  overflow: hidden;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.buttonNav:hover {
+  background-image: linear-gradient(#525b64, #363c43);
+}
+
+
+.button-84 {
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(#464d55, #25292e);
+  border-radius: 8px;
+  border-width: 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: expo-brand-demi,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 18px;
+  height: 52px;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 32px;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all 150ms;
+  vertical-align: baseline;
+  white-space: nowrap;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
 }
 
-.button-85:before {
-  content: "";
-  background: linear-gradient(
-    45deg,
-    #14897498,
-    #ff730070,
-    #831c98,
-    #a109d3,
-    #00ffd5,
-    #002bff,
-    #7a00ff,
-    #8004ba,
-    #630640
-  ) ;
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  background-size: 400%;
-  z-index: -1;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  animation: glowing-button-85 20s linear infinite;
-  transition: opacity 0.3s ease-in-out;
-  border-radius: 10px;
+.button-84:hover {
+  box-shadow: rgba(0, 1, 0, .2) 0 2px 8px;
+  opacity: .85;
 }
 
-@keyframes glowing-button-85 {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: 100% 0;
-  }
-  100% {
-    background-position: 0 0;
+.button-84:active {
+  outline: 0;
+}
+
+.button-84:focus {
+  box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
+}
+
+@media (max-width: 420px) {
+  .button-84 {
+    height: 48px;
   }
 }
 
-.button-85:after {
-  z-index: -1;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #222222a1;
-  left: 0;
-  top: 0;
-  border-radius: 10px;
-}
+
+
+

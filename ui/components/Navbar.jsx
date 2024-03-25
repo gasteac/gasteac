@@ -22,7 +22,7 @@ export const Navbar = () => {
         confirmButton: "custom-ok",
         cancelButton: "custom-cancel",
         container: "sweet-container",
-        popup: "button-85 sweet-popup",
+        popup: "sweet-popup",
       },
       showCancelButton: true,
       confirmButtonText: "OK",
@@ -62,12 +62,12 @@ export const Navbar = () => {
         </NavLink> */}
 
         <div className="buttons">
-          <NavLink
+          {/* <NavLink
             className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}
             to="/about"
           >
             «About/»
-          </NavLink>
+          </NavLink> */}
 
           <NavLink
             className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}
@@ -76,7 +76,7 @@ export const Navbar = () => {
             «Contact/»
           </NavLink>
 
-          <button style={{fontSize:'20px'}} className="button-85" onClick={() => mostrarAlerta()}>
+          <button style={{fontSize:'20px'}} className="buttonNav" onClick={() => mostrarAlerta()}>
             «Resume»
           </button>
         </div>
@@ -84,3 +84,4 @@ export const Navbar = () => {
     </>
   );
 };
+

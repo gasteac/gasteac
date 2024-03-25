@@ -31,7 +31,7 @@ export const Gasteac = () => {
             style={{
               justifyContent: "center",
               height:'420px',
-              width:'420px',
+              width:'450px',
               alignContent:'center',
               display:'flex',
           

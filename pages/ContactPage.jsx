@@ -105,7 +105,7 @@ export const ContactPage = () => {
               </a>
             </button>
             {sent 
-            ? (<a id='done' className="animate__animated animate__fadeOut animate__delay-1s">
+            ? (<a style={{marginLeft:'120px', color:'#ECFDF9'}} id='done' className="animate__animated animate__fadeIn">
                 
                 Sent!
               </a>)
