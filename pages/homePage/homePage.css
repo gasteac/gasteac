@@ -66,14 +66,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .sectionIcons img {
-  filter: drop-shadow(0.2rem 0.3rem 0.5rem rgba(255, 255, 255, 0.29));
+  filter:  grayscale(100%) !important;
   display: flex;
   width: auto;
   max-height: 80px;
   margin: 0 25px;
+}
+
+.sectionIcons img:hover {
+  filter:  grayscale(20%) !important;
+  transform: scale(1.1, 1.1);
+  transition: all 0.1s ease-in;
+}
+
+.sectionIcons img:not(:hover) {
+  filter: none;
+  transform: scale(1, 1);
+  transition: all 0.1s ease-in;
 }
 
 .section h1 {
@@ -120,16 +133,7 @@
   margin: 0;
 }
 
-.sectionIcons img:hover {
-  transform: scale(1.1, 1.1);
-  transition: all 0.1s ease-in;
-}
 
-.sectionIcons img:not(:hover) {
-  filter: none;
-  transform: scale(1, 1);
-  transition: all 0.1s ease-in;
-}
 
 @media (max-width: 670px) {
   .sectionIcons {
