@@ -71,7 +71,7 @@ input:-webkit-autofill:active {
   letter-spacing: 4px;
   font-size: 1.5rem;
   color: #ffffff91 !important;
-  width: 145px;
+  
 }
 
 .login-box button {
@@ -83,7 +83,14 @@ input:-webkit-autofill:active {
   color: #ffffff91 !important;
 }
 
-
+.sent {
+  
+    background: transparent !important;
+    color: #ffffff !important;
+    border-radius: 5px;
+    box-shadow: none !important
+  
+}
 
 /* .login-box a:hover {
   background: #03e9f4;

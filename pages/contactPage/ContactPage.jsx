@@ -8,10 +8,11 @@ import gasteacApi from "../../api/gasteacApi";
 export const ContactPage = () => {
   const handleSucces = () => {
     setTimeout(() => {
+      setSent(true)
       window.dialog.close();
     }, 2500);
   };
-
+  const [sent, setSent] = useState(false)
   const formik = useFormik({
     initialValues: {
       email: "",
@@ -103,7 +104,7 @@ export const ContactPage = () => {
           </dialog>
           <div style={{ display: "flex", justifyContent: "end" }}>
               <button type="submit">
-                <a type="submit">
+                <a type="submit"  className={sent ? '' : ''}>
                   <span></span>
                   <span></span>
                   <span></span>
