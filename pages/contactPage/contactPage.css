@@ -49,17 +49,12 @@ input:-webkit-autofill:active {
   background: transparent;
 }
 
-.login-box .user-box label {
-  padding: 10px 0;
-  color: #ffffff91 !important;
-  font-size: 1.7rem;
-}
 
-.login-box .user-box label,
+
 .login-box .user-box label {
   color: #03e9f4;
   background-color: transparent;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: #ffffff91 !important;
 }
 

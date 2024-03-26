@@ -51,7 +51,7 @@ export const Navbar = () => {
             to="/"
             id='home'
           >
-            «Gasteac/»
+            «Home/»
           </NavLink>
           
         {/* <NavLink

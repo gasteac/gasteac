@@ -13,6 +13,7 @@
   --text-color: #f0f0f0;
   --accent-color: #006aff;
   --font-family: "Nunito Sans", sans-serif;
+  --doc-height: 100%;
 }
 
 h1 {
@@ -46,12 +47,13 @@ body {
   color: var(--text-color);
   margin: 0;
   padding: 0;
+  height: 100vh; /* fallback for Js load */
+  height: var(--doc-height);
   box-sizing: border-box;
   overflow: hidden;
   font-family: "Source Code Pro", monospace;
   /* background: linear-gradient(#15a77bc4, #097588d8); */
   background: linear-gradient(#000000a2, 50%, #000000d8);
-  height: 100vh;
 }
 
 @media (max-width: 630px) {
