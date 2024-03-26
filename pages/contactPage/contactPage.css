@@ -59,7 +59,6 @@ input:-webkit-autofill:active {
   font-size: 1.7rem;
 }
 
-
 .login-box .user-box label,
 .login-box .user-box label {
   color: #03e9f4;
@@ -81,6 +80,7 @@ input:-webkit-autofill:active {
   letter-spacing: 4px;
   font-size: 1.7rem;
   color: #ffffff91 !important;
+  width: 145px;
 }
 
 .login-box button {
@@ -92,23 +92,23 @@ input:-webkit-autofill:active {
   color: #ffffff91 !important;
 }
 
+
+
 .login-box a:hover {
   border: none !important;
   border-radius: 10px;
-  background: #18c1974a;
+  background: transparent;
   color: #ffffffcc;
-  box-shadow: 0 0 5px #03e8f47f, 0 0 15px #03e8f46b, 0 0 25px #03e8f481,
-    0 0 50px #03e8f47e;
+  box-shadow: 0 0 5px #b08e057f, 0 0 15px #36c10c6b, 0 0 25px #94700681,
+    0 0 50px #fffb1a7e;
 }
 
 .login-box a span {
   position: absolute;
   display: block;
-  
-  
 }
 
-.fieldRequired{
+.fieldRequired {
   height: 20px;
   margin: 0;
   display: flex;
@@ -116,8 +116,8 @@ input:-webkit-autofill:active {
   justify-content: start;
 }
 
-.fieldRequired h6{
-  color: #FF4D4D;
+.fieldRequired h6 {
+  color: #ff4d4d;
   margin-left: 10px;
   font-size: 1rem;
 }
@@ -129,7 +129,6 @@ input:-webkit-autofill:active {
   height: 2px;
   background: linear-gradient(90deg, transparent, #dddddd91);
   animation: btn-anim1 3s linear infinite;
-
 }
 
 @keyframes btn-anim1 {
@@ -149,7 +148,6 @@ input:-webkit-autofill:active {
   height: 100%;
   background: linear-gradient(180deg, transparent, #dddddd91);
   animation: btn-anim2 3s linear infinite;
-
 }
 
 @keyframes btn-anim2 {
@@ -169,7 +167,6 @@ input:-webkit-autofill:active {
   height: 2px;
   background: linear-gradient(270deg, transparent, #dddddd91);
   animation: btn-anim3 3s linear infinite;
-
 }
 
 @keyframes btn-anim3 {
@@ -189,7 +186,6 @@ input:-webkit-autofill:active {
   height: 100%;
   background: linear-gradient(360deg, transparent, #dddddd91);
   animation: btn-anim4 3s linear infinite;
-
 }
 
 @keyframes btn-anim4 {
@@ -202,8 +198,20 @@ input:-webkit-autofill:active {
   }
 }
 
-@media (min-width:870px){
+@media (min-width: 870px) {
   .login-box {
     width: 40vw !important;
   }
+}
+
+/* Sent button  */
+.login-box .sentButton a {
+  border: none !important;
+  border-radius: 10px;
+  background: transparent;
+  color: #ffffff !important;
+  box-shadow: 0 0 5px #03e8f47f, 0 0 15px #03e8f46b, 0 0 25px #03e8f481,
+    0 0 50px #03e8f47e;
+  color: #ffffff91 !important;
+  width: 145px;
 }

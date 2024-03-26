@@ -4,25 +4,14 @@ import "./contactPage.css";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import gasteacApi from "../../api/gasteacApi";
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>;
 export const ContactPage = () => {
-  // const handleSucces = () => {
-  //   Swal.fire({
-  //     customClass: {
-  //       popup: "sweetPopup",
-  //       container: "sweetContainer",
-  //     },
-  //     title: "message sent!",
-  //     timer: 5000000000,
-  //     timerProgressBar: true,
-  //     didOpen: () => {
-  //       Swal.showLoading();
-  //     },
-  //     willClose: () => {
-  //       clearInterval(timerInterval);
-  //     },
-  //   });
-  // };
+  const handleSucces = () => {
+    setSent(true);
+    setTimeout(() => {
+      setSent(false);
+    }, 2500);
+  };
 
   const formik = useFormik({
     initialValues: {
@@ -35,7 +24,7 @@ export const ContactPage = () => {
       name: Yup.string()
         .max(30, "Must be 30 characters or less")
         .required("Required!"),
-      message: Yup.string().min(5, "Write something!").required("Required!"),
+      message: Yup.string().min(5, "Message must be > 5").required("Required!"),
       email: Yup.string().email("Invalid email address").required("Required!"),
     }),
     onSubmit: async ({ name, email, phone = "", message }) => {
@@ -59,7 +48,7 @@ export const ContactPage = () => {
   return (
     <div className="contactPage  animate__animated  animate__fadeIn animate__slower">
       <div className="login-box">
-        <form onSubmit={formik.handleSubmit}>
+        <form onSubmit={!sent ? formik.handleSubmit : (e)=>e.preventDefault()}>
           <div className="user-box">
             <div className="fieldRequired">
               <label htmlFor="name">Name</label>
@@ -113,15 +102,23 @@ export const ContactPage = () => {
             ></textarea>
           </div>
           <div style={{ display: "flex", justifyContent: "end" }}>
-            <button type="submit">
-              <a type="submit">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Submit
-              </a>
-            </button>
+            {sent ? (
+              <button className="sentButton">
+                <a>
+                  Sent!
+                </a>
+              </button>
+            ) : (
+              <button type="submit">
+                <a type="submit">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  Submit
+                </a>
+              </button>
+            )}
           </div>
         </form>
       </div>
