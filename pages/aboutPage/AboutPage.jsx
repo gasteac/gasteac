@@ -12,7 +12,7 @@ export const AboutPage = () => {
             <h1>About me</h1>{" "}
             <button 
             >
-              <a href="/public/ResumeAcostaGaston.pdf" download>Download Resume</a>
+              <a href="ResumeAcostaGaston.pdf" download>Download Resume</a>
             </button>
           </div>
           <p>
