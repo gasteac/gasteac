@@ -10,13 +10,9 @@ export const AboutPage = () => {
         <div className="aboutText">
           <div className="aboutmebutton">
             <h1>About me</h1>{" "}
-            <button
-              onClick={() =>
-                (window.location =
-                  "https://drive.usercontent.google.com/download?id=1LWntKrjkPRPQUMDSckOqljj0uSmnvIiF&export=download&authuser=0&confirm=t&uuid=2b8f4a76-1f72-483a-b8dc-b256c2068d20&at=APZUnTUf5KZpxR1l0bewC9ffYThe:1710977473551")
-              }
+            <button 
             >
-              Download Resume
+              <a href="/public/ResumeAcostaGaston.pdf" download>Download Resume</a>
             </button>
           </div>
           <p>
