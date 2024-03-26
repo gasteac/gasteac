@@ -1,11 +1,11 @@
 .contactPage {
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
 .login-box {
-  width: 85%;
+  max-width: 90%;
+  width: 100vw;
   font-size: 1.5rem;
   margin-top: 30px;
   padding: 15px;
@@ -191,8 +191,9 @@ input:-webkit-autofill:active {
 
 @media (min-width: 870px) {
   .login-box {
-    margin-top: 70px;
-    width: 60vw !important;
+    margin-top: 60px;
+    max-width: 80%;
+    width: 1000px;
   }
 }
 
