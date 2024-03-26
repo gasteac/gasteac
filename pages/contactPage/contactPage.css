@@ -86,12 +86,13 @@ input:-webkit-autofill:active {
 
 
 .login-box a:hover {
-  border: none !important;
-  border-radius: 10px;
-  background: transparent;
-  color: #ffffffcc;
-  box-shadow: 0 0 5px #b08e057f, 0 0 15px #36c10c6b, 0 0 25px #94700681,
-    0 0 50px #fffb1a7e;
+  background: #03e9f4;
+  color: #000000 !important;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
 }
 
 .login-box a span {
@@ -118,16 +119,15 @@ input:-webkit-autofill:active {
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #dddddd91);
-  animation: btn-anim1 3s linear infinite;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: btn-anim1 1s linear infinite;
 }
 
 @keyframes btn-anim1 {
   0% {
     left: -100%;
   }
-  50%,
-  100% {
+  50%,100% {
     left: 100%;
   }
 }
@@ -137,16 +137,16 @@ input:-webkit-autofill:active {
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, #dddddd91);
-  animation: btn-anim2 3s linear infinite;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
 }
 
 @keyframes btn-anim2 {
   0% {
     top: -100%;
   }
-  50%,
-  100% {
+  50%,100% {
     top: 100%;
   }
 }
@@ -156,16 +156,16 @@ input:-webkit-autofill:active {
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, transparent, #dddddd91);
-  animation: btn-anim3 3s linear infinite;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
 }
 
 @keyframes btn-anim3 {
   0% {
     right: -100%;
   }
-  50%,
-  100% {
+  50%,100% {
     right: 100%;
   }
 }
@@ -175,16 +175,16 @@ input:-webkit-autofill:active {
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, #dddddd91);
-  animation: btn-anim4 3s linear infinite;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
 }
 
 @keyframes btn-anim4 {
   0% {
     bottom: -100%;
   }
-  50%,
-  100% {
+  50%,100% {
     bottom: 100%;
   }
 }
@@ -207,4 +207,14 @@ input:-webkit-autofill:active {
     0 0 50px #03e8f47e;
   color: #ffffff91 !important;
   width: 145px;
+}
+
+.modal{
+  border: none !important;
+  border-radius: 10px;
+  background: black;
+  color: #ffffff !important;
+  box-shadow: 0 0 5px #03e8f47f, 0 0 15px #03e8f46b, 0 0 25px #03e8f481,
+    0 0 50px #03e8f47e;
+  color: #ffffff91 !important;
 }

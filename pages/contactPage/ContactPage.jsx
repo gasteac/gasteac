@@ -4,12 +4,11 @@ import "./contactPage.css";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import gasteacApi from "../../api/gasteacApi";
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>;
+
 export const ContactPage = () => {
   const handleSucces = () => {
-    setSent(true);
     setTimeout(() => {
-      setSent(false);
+      window.dialog.close();
     }, 2500);
   };
 
@@ -35,20 +34,18 @@ export const ContactPage = () => {
           phone: phone,
           newMessage: message,
         });
-
         formik.resetForm();
-        setSent(true);
+        window.dialog.showModal();
         handleSucces();
       } catch (error) {
         console.log(error);
       }
     },
   });
-  const [sent, setSent] = useState(false);
   return (
     <div className="contactPage  animate__animated  animate__fadeIn animate__slower">
       <div className="login-box">
-        <form onSubmit={!sent ? formik.handleSubmit : (e)=>e.preventDefault()}>
+        <form onSubmit={formik.handleSubmit}>
           <div className="user-box">
             <div className="fieldRequired">
               <label htmlFor="name">Name</label>
@@ -101,14 +98,10 @@ export const ContactPage = () => {
               value={formik.values.message}
             ></textarea>
           </div>
+          <dialog id='dialog' className="modal">
+          <h3>Message Sent!</h3>
+          </dialog>
           <div style={{ display: "flex", justifyContent: "end" }}>
-            {sent ? (
-              <button className="sentButton">
-                <a>
-                  Sent!
-                </a>
-              </button>
-            ) : (
               <button type="submit">
                 <a type="submit">
                   <span></span>
@@ -118,7 +111,6 @@ export const ContactPage = () => {
                   Submit
                 </a>
               </button>
-            )}
           </div>
         </form>
       </div>

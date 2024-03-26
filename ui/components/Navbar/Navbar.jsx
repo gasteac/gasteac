@@ -5,34 +5,8 @@ export const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        {/* 
-        <NavLink  className={({ isActive }) => `nav-link ${isActive ? 'noUnderline' : ""}`} to="/">
-          <img
-          className="logo2"
-            src="gasteacLogoWhiteOnly.png"
-            alt="gasteacLogo"
-          />
-        </NavLink> */}
-
-        {/* <div className="ul">
-          <NavLink
-            className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}
-            to="/about"
-          >
-            «About/»
-          </NavLink>
-
-          <NavLink
-            className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}
-            to="/contact"
-          >
-            «Contact/»
-          </NavLink>
-          </div>
-          <button style={{fontSize:'20px'}} className="buttonNav" onClick={() => mostrarAlerta()}>
-            «Resume»
-          </button> */}
-        <input type="checkbox" id="sidebar-active" />
+        <input type="checkbox" id="sidebar-active" /> 
+        {/* //como tengo un solo input, los 2 iconos cerrar y abrir hacen referencia a este input mediante htmlFor="sidebar-active" y como envuelven al icono, al hacer clic en este, es como hacer clic en el checkbox */}
         <label htmlFor="sidebar-active" className="open-sidebar-button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
