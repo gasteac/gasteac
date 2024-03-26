@@ -28,7 +28,7 @@
 
 nav a {
   color: rgba(255, 255, 255, 0.836);
-  font-size: 20px ;
+  font-size: 1.2rem ;
   height: 100%;
   display: flex;
   padding: 0 20px;
@@ -61,7 +61,7 @@ nav svg {
     top: 0;
     right: -100%;
     z-index: 10;
-    width: 60vw;
+    width: 50vw;
     background-color: var(--color-1);
     box-shadow: -5px 0 5px rgb(0, 0, 0, 0.25);
     transition: 0.28s ease-out;

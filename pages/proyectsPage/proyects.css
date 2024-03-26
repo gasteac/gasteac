@@ -8,6 +8,10 @@
   padding: 20px;
 }
 
+.textProyect h1{
+  margin-bottom: 0;
+}
+
 .tilt img{
   width: 90%;
   height: auto;
@@ -34,7 +38,7 @@
   background-position: center;
   background-repeat: repeat;
   border-radius: 20px;
-  margin-bottom: 20px;
+
 }
 
 .tilt img:hover {

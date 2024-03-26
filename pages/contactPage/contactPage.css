@@ -6,13 +6,9 @@
 
 .login-box {
   width: 85%;
-  font-size: 1.7rem;
-  margin-top: 20px;
+  font-size: 1.5rem;
+  margin-top: 30px;
   padding: 15px;
-  /* background-image: url(giphy.gif);  */
-  /* background-size: cover; */
-  /* background-position: center; */
-  /* background-repeat: repeat; */
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
@@ -29,7 +25,7 @@ input:-webkit-autofill:active {
 .login-box .user-box input {
   width: 100%;
   padding: 10px 0;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: #ffffffd3;
   margin-bottom: 20px;
   border: none;
@@ -45,7 +41,7 @@ input:-webkit-autofill:active {
   resize: vertical;
   width: 100%;
   padding: 10px 0;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: #ffffffd3;
   border: none;
   border-bottom: 1px solid #fff;
@@ -78,7 +74,7 @@ input:-webkit-autofill:active {
   transition: 0.1s;
   margin-top: 10px;
   letter-spacing: 4px;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: #ffffff91 !important;
   width: 145px;
 }
@@ -88,7 +84,7 @@ input:-webkit-autofill:active {
   color: transparent;
   background-color: transparent;
   border: none;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: #ffffff91 !important;
 }
 
@@ -200,7 +196,8 @@ input:-webkit-autofill:active {
 
 @media (min-width: 870px) {
   .login-box {
-    width: 40vw !important;
+    margin-top: 70px;
+    width: 60vw !important;
   }
 }
 
