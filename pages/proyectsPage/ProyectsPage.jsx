@@ -8,9 +8,7 @@ export const ProyectsPage = () => {
       <div className="textProyect">
         <h1>ERROR 404</h1>
         <p>We are working on it!</p>
-
-        <p>But hey!</p>
-        <p>Look at this parallax wolf</p>
+        <p>Look this parallax wolf</p>
         <Tilt className="tilt">
           <div>
             <img src="whiteWolf.png" />

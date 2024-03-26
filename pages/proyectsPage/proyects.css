@@ -7,13 +7,18 @@
 }
 
 .textProyect h1{
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
+}
+
+.textProyect p{
+  margin: 0.5rem;
 }
 
 
 .tilt img{
-  width: 100%;
+  width: 90%;
   height: auto;
+  padding: 10px;
 }
 
 .textProyect p {
@@ -27,8 +32,8 @@
 }
 
 .tilt {
-  width: 80%;
-  height: auto;
+  max-width: 80%;
+  margin: 1rem;
   display: flex;
   align-content: center;
   align-items: center;
