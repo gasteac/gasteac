@@ -21,7 +21,7 @@
 }
 
 .socialLinks img.git {
-  background-image: url(giphy.gif); /* La misma imagen que usas en el <img> */
+  background-image: url(/public/giphy.gif); /* La misma imagen que usas en el <img> */
 
   background-position: left;
   background-repeat: repeat;
@@ -30,7 +30,7 @@
 }
 
 .socialLinks img.linkedin {
-  background-image: url(giphy.gif); /* La misma imagen que usas en el <img> */
+  background-image: url(/public/giphy.gif); /* La misma imagen que usas en el <img> */
 
   background-position: right;
   background-repeat: repeat;
@@ -74,7 +74,7 @@
 
 .section h1 {
   text-align: center;
-  background-image: url(giphy.gif);
+  background-image: url(/public/giphy.gif);
   background-repeat: repeat;
   color: transparent;
   -moz-background-clip: text;
@@ -85,7 +85,7 @@
 }
 
 .section h2 {
-  background-image: url(giphy.gif);
+  background-image: url(/public/giphy.gif);
   background-repeat: repeat;
   color: transparent;
   text-align: center;
@@ -96,7 +96,7 @@
   margin: 0;
 }
 .section h3 {
-  background-image: url(giphy.gif);
+  background-image: url(/public/giphy.gif);
   background-repeat: repeat;
   color: transparent;
   -moz-background-clip: text;
