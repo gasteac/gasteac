@@ -1,4 +1,3 @@
-
 .about{
   display: flex;
   flex-direction: column;
@@ -12,14 +11,13 @@
     font-size: 1.3rem !important;
   }
 }
-.about body{
-  height: 130vh;
-}
+
 .aboutText {
   hyphens: auto;
   text-align: center;
   width: 80vw;
 }
+
 .aboutmebutton{
   display: flex;
   flex-wrap: wrap;
@@ -59,9 +57,12 @@
   .aboutmebutton h1,
   .aboutmebutton button
   {
-    font-size: 20px !important;
+    font-size: 2rem !important;
   }
   .about p{
-    font-size: 1.1rem !important;
+    font-size: 1.2rem !important;
+  }
+  .aboutmebutton button{
+    font-size: 1.2rem !important;
   }
 }
