@@ -9,7 +9,7 @@
 - 🔥 Now working with the **MERN stack.** 🍷
 
 ### 📫 Reach Me
-[<img src='https://github.com/jatin-pahuja/jatin-pahuja/blob/master/globe.png' alt='github' height='40' >](https://gasteac.vercel.app)
+[<img src='https://github.com/jatin-pahuja/jatin-pahuja/blob/master/globe.png' alt='github' height='40' >](https://gasteac.com/)
 &nbsp;&nbsp;&nbsp;
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/gasteac)
 &nbsp;&nbsp;&nbsp;
