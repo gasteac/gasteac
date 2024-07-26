@@ -5,8 +5,7 @@
 ### 🚀 Me?
 - 🎓 I’m currently pursuing my Bachelor of **Information Systems Engineering.**
 - 👯 I am willing to collaborate as a team player building better code.
-- 🌱 Currently learning Full-Stack Development.
-- 🔥 Now working with the **MERN stack.** 🍷
+- 🔥 Now working as a React Native developer at Banco de Corrientes S.A. 🍷
 
 ### 📫 Reach Me
 [<img src='https://github.com/jatin-pahuja/jatin-pahuja/blob/master/globe.png' alt='github' height='40' >](https://gasteac.com/)
