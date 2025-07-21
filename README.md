@@ -1,16 +1,35 @@
+Hello there <img src="https://github.com/jatin-pahuja/jatin-pahuja/blob/master/Hi.gif" width="30px"> I'm Gastón Acosta
+🛠️🤖 AI Engineer in the making
+<img src='https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2c7e7e1f-d634-4e24-afa3-fef24571644a/dfbrm2e-e111d822-acae-460c-8e70-e4a13626b639.gif' alt='gif' width='250'>
 
-## Hello there <img src="https://github.com/jatin-pahuja/jatin-pahuja/blob/master/Hi.gif" width="30px"> I'm Gastón Acosta.
-### Software Engineer Full Stack 💻
-[<img src='https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2c7e7e1f-d634-4e24-afa3-fef24571644a/dfbrm2e-e111d822-acae-460c-8e70-e4a13626b639.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJjN2U3ZTFmLWQ2MzQtNGUyNC1hZmEzLWZlZjI0NTcxNjQ0YVwvZGZicm0yZS1lMTExZDgyMi1hY2FlLTQ2MGMtOGU3MC1lNGExMzYyNmI2MzkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.lKjqApCu-3TlFFOTPHq7wrVN3Fw93SzF7YtnLKqfmiY' alt='github' width='250'>](https://gasteac.vercel.app)
-### 🚀 Me?
-- 🎓 I’m currently pursuing my Bachelor of **Information Systems Engineering.**
-- 👯 I am willing to collaborate as a team player building better code.
-- 🔥 Now working as an AI Engineer at Promtior. 🤖
+🚀 About Me
+🎓 Bachelor’s degree in Information Systems Engineering (in progress).
 
-### 📫 Reach Me
-[<img src='https://github.com/jatin-pahuja/jatin-pahuja/blob/master/globe.png' alt='github' height='40' >](https://gasteac.com/)
-&nbsp;&nbsp;&nbsp;
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/gasteac)
-&nbsp;&nbsp;&nbsp;
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/gasteac)
+🤖 Currently working as an AI Engineer at Promtior, building production-ready tools powered by LLMs and intelligent agents.
+
+⚙️ Experienced in designing and implementing complex agent-based workflows, including multi-agent systems using LangChain, LangGraph, and Python.
+
+🔨 I develop full-stack features and tools using TypeScript, React, Node.js, PostgreSQL, and API integrations.
+
+🧠 I enjoy solving challenges that involve reasoning, automation, and leveraging LLMs beyond simple chat interfaces.
+
+👯 Strong believer in collaboration, clean architecture, and building things that scale.
+
+🛠️ Key Skills & Tools
+LLMs, Agents, Multi-Agent Architectures
+
+LangChain, LangGraph, OpenAI API
+
+Python, TypeScript, Node.js, React
+
+SQL, REST APIs
+
+Agent workflows, context engineering, retrieval-augmented generation (RAG), and many other LLM-related techniques.
+
+📫 Reach Me
+<img src='https://github.com/jatin-pahuja/jatin-pahuja/blob/master/globe.png' alt='website' height='40'>
+  
+<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>
+  
+<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>
 
