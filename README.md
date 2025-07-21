@@ -1,28 +1,29 @@
-Hello there <img src="https://github.com/jatin-pahuja/jatin-pahuja/blob/master/Hi.gif" width="30px"> I'm Gastón Acosta
-🛠️🤖 AI Engineer in the making
-<img src='https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2c7e7e1f-d634-4e24-afa3-fef24571644a/dfbrm2e-e111d822-acae-460c-8e70-e4a13626b639.gif' alt='gif' width='250'>
+## Hello there 🙌 I'm Gastón Acosta
+### 🤖 AI Engineer in the making 🛠️
+[<img src='https://cdn.pixabay.com/animation/2025/01/29/18/04/18-04-35-646_512.gif' alt='github' width='250'>](https://gasteac.vercel.app)
 
-🚀 About Me
-🎓 Bachelor’s degree in Information Systems Engineering (in progress).
+(Yes, I like wolves) 
 
-🤖 Currently working as an AI Engineer at Promtior, building production-ready tools powered by LLMs and intelligent agents.
+## Something about me:
+- 🎓 Bachelor’s degree in Information Systems Engineering (in progress)
 
-⚙️ Experienced in designing and implementing complex agent-based workflows, including multi-agent systems using LangChain, LangGraph, and Python.
+- 🤖 Currently working as an AI Engineer at Promtior, building production-ready tools powered by LLMs and intelligent agents.
 
-🔨 I develop full-stack features and tools using TypeScript, React, Node.js, PostgreSQL, and API integrations.
+- ⚙️ Experienced in designing and implementing complex agent-based workflows, including multi-agent systems using LangChain, LangGraph, and Python.
 
-🧠 I enjoy solving challenges that involve reasoning, automation, and leveraging LLMs beyond simple chat interfaces.
+- 🔨 I develop full-stack features and tools using TypeScript, React, Node.js, PostgreSQL, and API integrations.
 
-👯 Strong believer in collaboration, clean architecture, and building things that scale.
+- 🧠 I enjoy solving challenges that involve reasoning, automation, and leveraging LLMs beyond simple chat interfaces.
 
-🛠️ Key Skills & Tools
-LLMs, Agents, Multi-Agent Architectures
+- 👯 Strong believer in collaboration, clean architecture, and building things that scale.
 
-LangChain, LangGraph, OpenAI API
+## 🛠️ Key Skills & Tools
+- LLMs, Agents, Multi-Agent Architectures
 
-Python, TypeScript, Node.js, React
+- LangChain, LangGraph, OpenAI API
 
-SQL, REST APIs
+- Python, TypeScript, Node.js, React
 
-Agent workflows, context engineering, retrieval-augmented generation (RAG), and many other LLM-related techniques.
+- Agent workflows, context engineering, retrieval-augmented generation (RAG), and many other LLM-related techniques.
 
+- SQL, REST APIs, Postgres
