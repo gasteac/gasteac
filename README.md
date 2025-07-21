@@ -2,7 +2,7 @@
 ### 🤖 AI Engineer in the making 🛠️
 [<img src='https://cdn.pixabay.com/animation/2025/01/29/18/04/18-04-35-646_512.gif' alt='github' width='250'>](https://gasteac.vercel.app)
 
-(Yes, I like wolves) 
+Yes, I like wolves 🐺
 
 ## Something about me:
 - 🎓 Bachelor’s degree in Information Systems Engineering (in progress)
@@ -18,12 +18,15 @@
 - 👯 Strong believer in collaboration, clean architecture, and building things that scale.
 
 ## 🛠️ Key Skills & Tools
-- LLMs, Agents, Multi-Agent Architectures
 
-- LangChain, LangGraph, OpenAI API
+🤖 Generative AI
 
-- Python, TypeScript, Node.js, React
+🧠 LLMs, 🤝 Agents, 🧩 Multi-Agent Architectures
 
-- Agent workflows, context engineering, retrieval-augmented generation (RAG), and many other LLM-related techniques.
+🦜 LangChain & LangGraph
 
-- SQL, REST APIs, Postgres
+🐍 Python, 🟦 TypeScript, 🌐 Node.js, ⚛️ React
+
+🗃️ SQL, 🌐 REST APIs, 🐘 PostgreSQL
+
+🛠️ Agent workflows, 🧠 Context engineering, 📚 Retrieval-Augmented Generation (RAG)..
